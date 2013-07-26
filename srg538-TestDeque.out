@@ -1,0 +1,453 @@
+==22581== Memcheck, a memory error detector
+==22581== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==22581== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==22581== Command: TestDeque
+==22581== 
+Running main() from gtest_main.cc
+[==========] Running 212 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 89 tests from DequeTest/0, where TypeParam = std::deque<int, std::allocator<int> >
+[ RUN      ] DequeTest/0.ResizeDown
+[       OK ] DequeTest/0.ResizeDown (47 ms)
+[ RUN      ] DequeTest/0.ResizeLarger
+[       OK ] DequeTest/0.ResizeLarger (13 ms)
+[ RUN      ] DequeTest/0.ResizeVeryLarge
+[       OK ] DequeTest/0.ResizeVeryLarge (31 ms)
+[ RUN      ] DequeTest/0.ResizeNewValue
+[       OK ] DequeTest/0.ResizeNewValue (10 ms)
+[ RUN      ] DequeTest/0.At1
+[       OK ] DequeTest/0.At1 (5 ms)
+[ RUN      ] DequeTest/0.At2
+[       OK ] DequeTest/0.At2 (3 ms)
+[ RUN      ] DequeTest/0.At3
+[       OK ] DequeTest/0.At3 (3 ms)
+[ RUN      ] DequeTest/0.At4
+[       OK ] DequeTest/0.At4 (66 ms)
+[ RUN      ] DequeTest/0.Front0
+[       OK ] DequeTest/0.Front0 (4 ms)
+[ RUN      ] DequeTest/0.Front1
+[       OK ] DequeTest/0.Front1 (3 ms)
+[ RUN      ] DequeTest/0.Front2
+[       OK ] DequeTest/0.Front2 (9 ms)
+[ RUN      ] DequeTest/0.IndexOp
+[       OK ] DequeTest/0.IndexOp (6 ms)
+[ RUN      ] DequeTest/0.IndexOp1
+[       OK ] DequeTest/0.IndexOp1 (5 ms)
+[ RUN      ] DequeTest/0.IndexOp2
+[       OK ] DequeTest/0.IndexOp2 (9 ms)
+[ RUN      ] DequeTest/0.EqualsEquals1
+[       OK ] DequeTest/0.EqualsEquals1 (11 ms)
+[ RUN      ] DequeTest/0.EqualsEquals2
+[       OK ] DequeTest/0.EqualsEquals2 (4 ms)
+[ RUN      ] DequeTest/0.EqualsEquals3
+[       OK ] DequeTest/0.EqualsEquals3 (4 ms)
+[ RUN      ] DequeTest/0.Swap1
+[       OK ] DequeTest/0.Swap1 (4 ms)
+[ RUN      ] DequeTest/0.Swap2
+[       OK ] DequeTest/0.Swap2 (3 ms)
+[ RUN      ] DequeTest/0.Swap3
+[       OK ] DequeTest/0.Swap3 (21 ms)
+[ RUN      ] DequeTest/0.AllocatorConstructor
+[       OK ] DequeTest/0.AllocatorConstructor (3 ms)
+[ RUN      ] DequeTest/0.SizedConstructor
+[       OK ] DequeTest/0.SizedConstructor (5 ms)
+[ RUN      ] DequeTest/0.SizedConstructorLarge
+[       OK ] DequeTest/0.SizedConstructorLarge (11 ms)
+[ RUN      ] DequeTest/0.CopyConstructor
+[       OK ] DequeTest/0.CopyConstructor (6 ms)
+[ RUN      ] DequeTest/0.CopyAssignment
+[       OK ] DequeTest/0.CopyAssignment (15 ms)
+[ RUN      ] DequeTest/0.ContentEqualsOnEmpty
+[       OK ] DequeTest/0.ContentEqualsOnEmpty (3 ms)
+[ RUN      ] DequeTest/0.ContentEqualsSmall
+[       OK ] DequeTest/0.ContentEqualsSmall (3 ms)
+[ RUN      ] DequeTest/0.ContentEqualsLarge
+[       OK ] DequeTest/0.ContentEqualsLarge (8 ms)
+[ RUN      ] DequeTest/0.ContentNotEqual
+[       OK ] DequeTest/0.ContentNotEqual (3 ms)
+[ RUN      ] DequeTest/0.SizeNotEqualSize
+[       OK ] DequeTest/0.SizeNotEqualSize (4 ms)
+[ RUN      ] DequeTest/0.ContentAndSizeNotEqual
+[       OK ] DequeTest/0.ContentAndSizeNotEqual (3 ms)
+[ RUN      ] DequeTest/0.ContentNotEqualsLarge
+[       OK ] DequeTest/0.ContentNotEqualsLarge (4 ms)
+[ RUN      ] DequeTest/0.LessThan
+[       OK ] DequeTest/0.LessThan (16 ms)
+[ RUN      ] DequeTest/0.LessThanSize
+[       OK ] DequeTest/0.LessThanSize (11 ms)
+[ RUN      ] DequeTest/0.LessThanLarge
+[       OK ] DequeTest/0.LessThanLarge (3 ms)
+[ RUN      ] DequeTest/0.LessThanEqualEmpty
+[       OK ] DequeTest/0.LessThanEqualEmpty (3 ms)
+[ RUN      ] DequeTest/0.LessThanEqual
+[       OK ] DequeTest/0.LessThanEqual (3 ms)
+[ RUN      ] DequeTest/0.LessThanEqualSelf
+[       OK ] DequeTest/0.LessThanEqualSelf (5 ms)
+[ RUN      ] DequeTest/0.LessThanEqualSize
+[       OK ] DequeTest/0.LessThanEqualSize (3 ms)
+[ RUN      ] DequeTest/0.LessThanEqualLarge
+[       OK ] DequeTest/0.LessThanEqualLarge (4 ms)
+[ RUN      ] DequeTest/0.GreaterThanEqualEmpty
+[       OK ] DequeTest/0.GreaterThanEqualEmpty (4 ms)
+[ RUN      ] DequeTest/0.GreaterThan
+[       OK ] DequeTest/0.GreaterThan (3 ms)
+[ RUN      ] DequeTest/0.GreaterThanSize
+[       OK ] DequeTest/0.GreaterThanSize (3 ms)
+[ RUN      ] DequeTest/0.GreaterThanLarge
+[       OK ] DequeTest/0.GreaterThanLarge (3 ms)
+[ RUN      ] DequeTest/0.GreaterThanEqual
+[       OK ] DequeTest/0.GreaterThanEqual (3 ms)
+[ RUN      ] DequeTest/0.GreaterThanEqualSelf
+[       OK ] DequeTest/0.GreaterThanEqualSelf (3 ms)
+[ RUN      ] DequeTest/0.GreaterThanEqualSize
+[       OK ] DequeTest/0.GreaterThanEqualSize (3 ms)
+[ RUN      ] DequeTest/0.GreaterThanEqualLarge
+[       OK ] DequeTest/0.GreaterThanEqualLarge (5 ms)
+[ RUN      ] DequeTest/0.IndexZero
+[       OK ] DequeTest/0.IndexZero (3 ms)
+[ RUN      ] DequeTest/0.IndexSizeMinusOne
+[       OK ] DequeTest/0.IndexSizeMinusOne (4 ms)
+[ RUN      ] DequeTest/0.AtZero
+[       OK ] DequeTest/0.AtZero (3 ms)
+[ RUN      ] DequeTest/0.AtSizeMinusOne
+[       OK ] DequeTest/0.AtSizeMinusOne (5 ms)
+[ RUN      ] DequeTest/0.AtSizeMinusOneWhenSizeIsLarge
+[       OK ] DequeTest/0.AtSizeMinusOneWhenSizeIsLarge (5 ms)
+[ RUN      ] DequeTest/0.BackWhenSizeIsOne
+[       OK ] DequeTest/0.BackWhenSizeIsOne (5 ms)
+[ RUN      ] DequeTest/0.BackWhenSizeIsSmall
+[       OK ] DequeTest/0.BackWhenSizeIsSmall (4 ms)
+[ RUN      ] DequeTest/0.BackWhenSizeIsLarge
+[       OK ] DequeTest/0.BackWhenSizeIsLarge (4 ms)
+[ RUN      ] DequeTest/0.ClearEmpty
+[       OK ] DequeTest/0.ClearEmpty (4 ms)
+[ RUN      ] DequeTest/0.ClearSmall
+[       OK ] DequeTest/0.ClearSmall (4 ms)
+[ RUN      ] DequeTest/0.ClearLarge
+[       OK ] DequeTest/0.ClearLarge (5 ms)
+[ RUN      ] DequeTest/0.EmptyEmpty
+[       OK ] DequeTest/0.EmptyEmpty (3 ms)
+[ RUN      ] DequeTest/0.EmptySmall
+[       OK ] DequeTest/0.EmptySmall (3 ms)
+[ RUN      ] DequeTest/0.EmptyLarge
+[       OK ] DequeTest/0.EmptyLarge (3 ms)
+[ RUN      ] DequeTest/0.FrontWhenSizeIsOne
+[       OK ] DequeTest/0.FrontWhenSizeIsOne (4 ms)
+[ RUN      ] DequeTest/0.FrontWhenSizeIsSmall
+[       OK ] DequeTest/0.FrontWhenSizeIsSmall (4 ms)
+[ RUN      ] DequeTest/0.FrontWhenSizeIsLarge
+[       OK ] DequeTest/0.FrontWhenSizeIsLarge (4 ms)
+[ RUN      ] DequeTest/0.PopBackWhenSizeIsOne
+[       OK ] DequeTest/0.PopBackWhenSizeIsOne (5 ms)
+[ RUN      ] DequeTest/0.PopBackWhenSizeIsSmall
+[       OK ] DequeTest/0.PopBackWhenSizeIsSmall (7 ms)
+[ RUN      ] DequeTest/0.PopBackWhenSizeIsLarge
+[       OK ] DequeTest/0.PopBackWhenSizeIsLarge (6 ms)
+[ RUN      ] DequeTest/0.PopFrontWhenSizeIsOne
+[       OK ] DequeTest/0.PopFrontWhenSizeIsOne (6 ms)
+[ RUN      ] DequeTest/0.PopFrontWhenSizeIsSmall
+[       OK ] DequeTest/0.PopFrontWhenSizeIsSmall (6 ms)
+[ RUN      ] DequeTest/0.PopFrontWhenSizeIsLarge
+[       OK ] DequeTest/0.PopFrontWhenSizeIsLarge (7 ms)
+[ RUN      ] DequeTest/0.PushBackSizeIsZero
+[       OK ] DequeTest/0.PushBackSizeIsZero (3 ms)
+[ RUN      ] DequeTest/0.PushBackSizeIsSmall
+[       OK ] DequeTest/0.PushBackSizeIsSmall (3 ms)
+[ RUN      ] DequeTest/0.PushBackSizeIsLarge
+[       OK ] DequeTest/0.PushBackSizeIsLarge (4 ms)
+[ RUN      ] DequeTest/0.PushBackBunch
+[       OK ] DequeTest/0.PushBackBunch (9 ms)
+[ RUN      ] DequeTest/0.PushFrontSizeIsZero
+[       OK ] DequeTest/0.PushFrontSizeIsZero (3 ms)
+[ RUN      ] DequeTest/0.PushFrontSizeIsSmall
+[       OK ] DequeTest/0.PushFrontSizeIsSmall (4 ms)
+[ RUN      ] DequeTest/0.PushFrontSizeIsLarge
+[       OK ] DequeTest/0.PushFrontSizeIsLarge (3 ms)
+[ RUN      ] DequeTest/0.PushFrontBunch
+[       OK ] DequeTest/0.PushFrontBunch (6 ms)
+[ RUN      ] DequeTest/0.ResizeGrow
+[       OK ] DequeTest/0.ResizeGrow (6 ms)
+[ RUN      ] DequeTest/0.ResizeShrink
+[       OK ] DequeTest/0.ResizeShrink (7 ms)
+[ RUN      ] DequeTest/0.ResizeGrowLarge
+[       OK ] DequeTest/0.ResizeGrowLarge (7 ms)
+[ RUN      ] DequeTest/0.ResizeShrinkLarge
+[       OK ] DequeTest/0.ResizeShrinkLarge (7 ms)
+[ RUN      ] DequeTest/0.SizeIsZero
+[       OK ] DequeTest/0.SizeIsZero (2 ms)
+[ RUN      ] DequeTest/0.SizeIsSmall
+[       OK ] DequeTest/0.SizeIsSmall (3 ms)
+[ RUN      ] DequeTest/0.SizeIsLarge
+[       OK ] DequeTest/0.SizeIsLarge (3 ms)
+[ RUN      ] DequeTest/0.SwapEmpty
+[       OK ] DequeTest/0.SwapEmpty (5 ms)
+[ RUN      ] DequeTest/0.SwapSmall
+[       OK ] DequeTest/0.SwapSmall (15 ms)
+[ RUN      ] DequeTest/0.SwapLarge
+[       OK ] DequeTest/0.SwapLarge (25 ms)
+[----------] 89 tests from DequeTest/0 (678 ms total)
+
+[----------] 89 tests from DequeTest/1, where TypeParam = MyDeque<int, std::allocator<int> >
+[ RUN      ] DequeTest/1.ResizeDown
+[       OK ] DequeTest/1.ResizeDown (42 ms)
+[ RUN      ] DequeTest/1.ResizeLarger
+[       OK ] DequeTest/1.ResizeLarger (7 ms)
+[ RUN      ] DequeTest/1.ResizeVeryLarge
+[       OK ] DequeTest/1.ResizeVeryLarge (109 ms)
+[ RUN      ] DequeTest/1.ResizeNewValue
+[       OK ] DequeTest/1.ResizeNewValue (5 ms)
+[ RUN      ] DequeTest/1.At1
+[       OK ] DequeTest/1.At1 (8 ms)
+[ RUN      ] DequeTest/1.At2
+[       OK ] DequeTest/1.At2 (3 ms)
+[ RUN      ] DequeTest/1.At3
+[       OK ] DequeTest/1.At3 (3 ms)
+[ RUN      ] DequeTest/1.At4
+[       OK ] DequeTest/1.At4 (5 ms)
+[ RUN      ] DequeTest/1.Front0
+[       OK ] DequeTest/1.Front0 (4 ms)
+[ RUN      ] DequeTest/1.Front1
+[       OK ] DequeTest/1.Front1 (4 ms)
+[ RUN      ] DequeTest/1.Front2
+[       OK ] DequeTest/1.Front2 (8 ms)
+[ RUN      ] DequeTest/1.IndexOp
+[       OK ] DequeTest/1.IndexOp (7 ms)
+[ RUN      ] DequeTest/1.IndexOp1
+[       OK ] DequeTest/1.IndexOp1 (6 ms)
+[ RUN      ] DequeTest/1.IndexOp2
+[       OK ] DequeTest/1.IndexOp2 (3 ms)
+[ RUN      ] DequeTest/1.EqualsEquals1
+[       OK ] DequeTest/1.EqualsEquals1 (8 ms)
+[ RUN      ] DequeTest/1.EqualsEquals2
+[       OK ] DequeTest/1.EqualsEquals2 (6 ms)
+[ RUN      ] DequeTest/1.EqualsEquals3
+[       OK ] DequeTest/1.EqualsEquals3 (4 ms)
+[ RUN      ] DequeTest/1.Swap1
+[       OK ] DequeTest/1.Swap1 (5 ms)
+[ RUN      ] DequeTest/1.Swap2
+[       OK ] DequeTest/1.Swap2 (4 ms)
+[ RUN      ] DequeTest/1.Swap3
+[       OK ] DequeTest/1.Swap3 (9 ms)
+[ RUN      ] DequeTest/1.AllocatorConstructor
+[       OK ] DequeTest/1.AllocatorConstructor (4 ms)
+[ RUN      ] DequeTest/1.SizedConstructor
+[       OK ] DequeTest/1.SizedConstructor (5 ms)
+[ RUN      ] DequeTest/1.SizedConstructorLarge
+[       OK ] DequeTest/1.SizedConstructorLarge (9 ms)
+[ RUN      ] DequeTest/1.CopyConstructor
+[       OK ] DequeTest/1.CopyConstructor (8 ms)
+[ RUN      ] DequeTest/1.CopyAssignment
+[       OK ] DequeTest/1.CopyAssignment (7 ms)
+[ RUN      ] DequeTest/1.ContentEqualsOnEmpty
+[       OK ] DequeTest/1.ContentEqualsOnEmpty (3 ms)
+[ RUN      ] DequeTest/1.ContentEqualsSmall
+[       OK ] DequeTest/1.ContentEqualsSmall (4 ms)
+[ RUN      ] DequeTest/1.ContentEqualsLarge
+[       OK ] DequeTest/1.ContentEqualsLarge (23 ms)
+[ RUN      ] DequeTest/1.ContentNotEqual
+[       OK ] DequeTest/1.ContentNotEqual (4 ms)
+[ RUN      ] DequeTest/1.SizeNotEqualSize
+[       OK ] DequeTest/1.SizeNotEqualSize (5 ms)
+[ RUN      ] DequeTest/1.ContentAndSizeNotEqual
+[       OK ] DequeTest/1.ContentAndSizeNotEqual (3 ms)
+[ RUN      ] DequeTest/1.ContentNotEqualsLarge
+[       OK ] DequeTest/1.ContentNotEqualsLarge (17 ms)
+[ RUN      ] DequeTest/1.LessThan
+[       OK ] DequeTest/1.LessThan (13 ms)
+[ RUN      ] DequeTest/1.LessThanSize
+[       OK ] DequeTest/1.LessThanSize (9 ms)
+[ RUN      ] DequeTest/1.LessThanLarge
+[       OK ] DequeTest/1.LessThanLarge (15 ms)
+[ RUN      ] DequeTest/1.LessThanEqualEmpty
+[       OK ] DequeTest/1.LessThanEqualEmpty (2 ms)
+[ RUN      ] DequeTest/1.LessThanEqual
+[       OK ] DequeTest/1.LessThanEqual (3 ms)
+[ RUN      ] DequeTest/1.LessThanEqualSelf
+[       OK ] DequeTest/1.LessThanEqualSelf (3 ms)
+[ RUN      ] DequeTest/1.LessThanEqualSize
+[       OK ] DequeTest/1.LessThanEqualSize (3 ms)
+[ RUN      ] DequeTest/1.LessThanEqualLarge
+[       OK ] DequeTest/1.LessThanEqualLarge (23 ms)
+[ RUN      ] DequeTest/1.GreaterThanEqualEmpty
+[       OK ] DequeTest/1.GreaterThanEqualEmpty (3 ms)
+[ RUN      ] DequeTest/1.GreaterThan
+[       OK ] DequeTest/1.GreaterThan (4 ms)
+[ RUN      ] DequeTest/1.GreaterThanSize
+[       OK ] DequeTest/1.GreaterThanSize (3 ms)
+[ RUN      ] DequeTest/1.GreaterThanLarge
+[       OK ] DequeTest/1.GreaterThanLarge (15 ms)
+[ RUN      ] DequeTest/1.GreaterThanEqual
+[       OK ] DequeTest/1.GreaterThanEqual (2 ms)
+[ RUN      ] DequeTest/1.GreaterThanEqualSelf
+[       OK ] DequeTest/1.GreaterThanEqualSelf (3 ms)
+[ RUN      ] DequeTest/1.GreaterThanEqualSize
+[       OK ] DequeTest/1.GreaterThanEqualSize (3 ms)
+[ RUN      ] DequeTest/1.GreaterThanEqualLarge
+[       OK ] DequeTest/1.GreaterThanEqualLarge (20 ms)
+[ RUN      ] DequeTest/1.IndexZero
+[       OK ] DequeTest/1.IndexZero (4 ms)
+[ RUN      ] DequeTest/1.IndexSizeMinusOne
+[       OK ] DequeTest/1.IndexSizeMinusOne (5 ms)
+[ RUN      ] DequeTest/1.AtZero
+[       OK ] DequeTest/1.AtZero (4 ms)
+[ RUN      ] DequeTest/1.AtSizeMinusOne
+[       OK ] DequeTest/1.AtSizeMinusOne (5 ms)
+[ RUN      ] DequeTest/1.AtSizeMinusOneWhenSizeIsLarge
+[       OK ] DequeTest/1.AtSizeMinusOneWhenSizeIsLarge (17 ms)
+[ RUN      ] DequeTest/1.BackWhenSizeIsOne
+[       OK ] DequeTest/1.BackWhenSizeIsOne (5 ms)
+[ RUN      ] DequeTest/1.BackWhenSizeIsSmall
+[       OK ] DequeTest/1.BackWhenSizeIsSmall (5 ms)
+[ RUN      ] DequeTest/1.BackWhenSizeIsLarge
+[       OK ] DequeTest/1.BackWhenSizeIsLarge (17 ms)
+[ RUN      ] DequeTest/1.ClearEmpty
+[       OK ] DequeTest/1.ClearEmpty (4 ms)
+[ RUN      ] DequeTest/1.ClearSmall
+[       OK ] DequeTest/1.ClearSmall (5 ms)
+[ RUN      ] DequeTest/1.ClearLarge
+[       OK ] DequeTest/1.ClearLarge (16 ms)
+[ RUN      ] DequeTest/1.EmptyEmpty
+[       OK ] DequeTest/1.EmptyEmpty (2 ms)
+[ RUN      ] DequeTest/1.EmptySmall
+[       OK ] DequeTest/1.EmptySmall (3 ms)
+[ RUN      ] DequeTest/1.EmptyLarge
+[       OK ] DequeTest/1.EmptyLarge (15 ms)
+[ RUN      ] DequeTest/1.FrontWhenSizeIsOne
+[       OK ] DequeTest/1.FrontWhenSizeIsOne (4 ms)
+[ RUN      ] DequeTest/1.FrontWhenSizeIsSmall
+[       OK ] DequeTest/1.FrontWhenSizeIsSmall (5 ms)
+[ RUN      ] DequeTest/1.FrontWhenSizeIsLarge
+[       OK ] DequeTest/1.FrontWhenSizeIsLarge (17 ms)
+[ RUN      ] DequeTest/1.PopBackWhenSizeIsOne
+[       OK ] DequeTest/1.PopBackWhenSizeIsOne (5 ms)
+[ RUN      ] DequeTest/1.PopBackWhenSizeIsSmall
+[       OK ] DequeTest/1.PopBackWhenSizeIsSmall (7 ms)
+[ RUN      ] DequeTest/1.PopBackWhenSizeIsLarge
+[       OK ] DequeTest/1.PopBackWhenSizeIsLarge (19 ms)
+[ RUN      ] DequeTest/1.PopFrontWhenSizeIsOne
+[       OK ] DequeTest/1.PopFrontWhenSizeIsOne (5 ms)
+[ RUN      ] DequeTest/1.PopFrontWhenSizeIsSmall
+[       OK ] DequeTest/1.PopFrontWhenSizeIsSmall (7 ms)
+[ RUN      ] DequeTest/1.PopFrontWhenSizeIsLarge
+[       OK ] DequeTest/1.PopFrontWhenSizeIsLarge (19 ms)
+[ RUN      ] DequeTest/1.PushBackSizeIsZero
+[       OK ] DequeTest/1.PushBackSizeIsZero (3 ms)
+[ RUN      ] DequeTest/1.PushBackSizeIsSmall
+[       OK ] DequeTest/1.PushBackSizeIsSmall (5 ms)
+[ RUN      ] DequeTest/1.PushBackSizeIsLarge
+[       OK ] DequeTest/1.PushBackSizeIsLarge (15 ms)
+[ RUN      ] DequeTest/1.PushBackBunch
+[       OK ] DequeTest/1.PushBackBunch (18 ms)
+[ RUN      ] DequeTest/1.PushFrontSizeIsZero
+[       OK ] DequeTest/1.PushFrontSizeIsZero (3 ms)
+[ RUN      ] DequeTest/1.PushFrontSizeIsSmall
+[       OK ] DequeTest/1.PushFrontSizeIsSmall (4 ms)
+[ RUN      ] DequeTest/1.PushFrontSizeIsLarge
+[       OK ] DequeTest/1.PushFrontSizeIsLarge (16 ms)
+[ RUN      ] DequeTest/1.PushFrontBunch
+[       OK ] DequeTest/1.PushFrontBunch (16 ms)
+[ RUN      ] DequeTest/1.ResizeGrow
+[       OK ] DequeTest/1.ResizeGrow (7 ms)
+[ RUN      ] DequeTest/1.ResizeShrink
+[       OK ] DequeTest/1.ResizeShrink (8 ms)
+[ RUN      ] DequeTest/1.ResizeGrowLarge
+[       OK ] DequeTest/1.ResizeGrowLarge (21 ms)
+[ RUN      ] DequeTest/1.ResizeShrinkLarge
+[       OK ] DequeTest/1.ResizeShrinkLarge (21 ms)
+[ RUN      ] DequeTest/1.SizeIsZero
+[       OK ] DequeTest/1.SizeIsZero (2 ms)
+[ RUN      ] DequeTest/1.SizeIsSmall
+[       OK ] DequeTest/1.SizeIsSmall (4 ms)
+[ RUN      ] DequeTest/1.SizeIsLarge
+[       OK ] DequeTest/1.SizeIsLarge (16 ms)
+[ RUN      ] DequeTest/1.SwapEmpty
+[       OK ] DequeTest/1.SwapEmpty (5 ms)
+[ RUN      ] DequeTest/1.SwapSmall
+[       OK ] DequeTest/1.SwapSmall (16 ms)
+[ RUN      ] DequeTest/1.SwapLarge
+[       OK ] DequeTest/1.SwapLarge (29 ms)
+[----------] 89 tests from DequeTest/1 (907 ms total)
+
+[----------] 34 tests from DequeIterTest
+[ RUN      ] DequeIterTest.for_each_read
+[       OK ] DequeIterTest.for_each_read (24 ms)
+[ RUN      ] DequeIterTest.iter_read
+[       OK ] DequeIterTest.iter_read (18 ms)
+[ RUN      ] DequeIterTest.iter_update
+[       OK ] DequeIterTest.iter_update (23 ms)
+[ RUN      ] DequeIterTest.reverse_iter_read
+[       OK ] DequeIterTest.reverse_iter_read (20 ms)
+[ RUN      ] DequeIterTest.reverse_iter_update
+[       OK ] DequeIterTest.reverse_iter_update (23 ms)
+[ RUN      ] DequeIterTest.const_iter_read
+[       OK ] DequeIterTest.const_iter_read (22 ms)
+[ RUN      ] DequeIterTest.const_reverse_iter_read
+[       OK ] DequeIterTest.const_reverse_iter_read (22 ms)
+[ RUN      ] DequeIterTest.iter_read_plus_equal
+[       OK ] DequeIterTest.iter_read_plus_equal (19 ms)
+[ RUN      ] DequeIterTest.iter_update_plus_equal
+[       OK ] DequeIterTest.iter_update_plus_equal (24 ms)
+[ RUN      ] DequeIterTest.reverse_iter_read_minus_equal
+[       OK ] DequeIterTest.reverse_iter_read_minus_equal (18 ms)
+[ RUN      ] DequeIterTest.reverse_iter_update_minus_equal
+[       OK ] DequeIterTest.reverse_iter_update_minus_equal (24 ms)
+[ RUN      ] DequeIterTest.const_iter_read_plus_equal
+[       OK ] DequeIterTest.const_iter_read_plus_equal (22 ms)
+[ RUN      ] DequeIterTest.const_reverse_iter_read_minus_equal
+[       OK ] DequeIterTest.const_reverse_iter_read_minus_equal (24 ms)
+[ RUN      ] DequeIterTest.iter_read_plus_equal_ten
+[       OK ] DequeIterTest.iter_read_plus_equal_ten (17 ms)
+[ RUN      ] DequeIterTest.reverse_iter_read_plus_equal_ten
+[       OK ] DequeIterTest.reverse_iter_read_plus_equal_ten (17 ms)
+[ RUN      ] DequeIterTest.iter_read_minus_equal_ten
+[       OK ] DequeIterTest.iter_read_minus_equal_ten (20 ms)
+[ RUN      ] DequeIterTest.reverse_iter_read_minus_equal_ten
+[       OK ] DequeIterTest.reverse_iter_read_minus_equal_ten (17 ms)
+[ RUN      ] DequeIterTest.const_iter_read_plus_equal_ten
+[       OK ] DequeIterTest.const_iter_read_plus_equal_ten (22 ms)
+[ RUN      ] DequeIterTest.const_reverse_iter_read_plus_equal_ten
+[       OK ] DequeIterTest.const_reverse_iter_read_plus_equal_ten (23 ms)
+[ RUN      ] DequeIterTest.const_iter_read_minus_equal_ten
+[       OK ] DequeIterTest.const_iter_read_minus_equal_ten (23 ms)
+[ RUN      ] DequeIterTest.const_reverse_iter_read_minus_equal_ten
+[       OK ] DequeIterTest.const_reverse_iter_read_minus_equal_ten (20 ms)
+[ RUN      ] DequeIterTest.iter_max_elem
+[       OK ] DequeIterTest.iter_max_elem (20 ms)
+[ RUN      ] DequeIterTest.const_iter_max_elem
+[       OK ] DequeIterTest.const_iter_max_elem (24 ms)
+[ RUN      ] DequeIterTest.iter_min_elem
+[       OK ] DequeIterTest.iter_min_elem (18 ms)
+[ RUN      ] DequeIterTest.const_iter_min_elem
+[       OK ] DequeIterTest.const_iter_min_elem (24 ms)
+[ RUN      ] DequeIterTest.iter_fill
+[       OK ] DequeIterTest.iter_fill (22 ms)
+[ RUN      ] DequeIterTest.iter_fill_n
+[       OK ] DequeIterTest.iter_fill_n (23 ms)
+[ RUN      ] DequeIterTest.iter_fill_n_max
+[       OK ] DequeIterTest.iter_fill_n_max (21 ms)
+[ RUN      ] DequeIterTest.iter_plus
+[       OK ] DequeIterTest.iter_plus (30 ms)
+[ RUN      ] DequeIterTest.iter_minus
+[       OK ] DequeIterTest.iter_minus (29 ms)
+[ RUN      ] DequeIterTest.iter_multiply
+[       OK ] DequeIterTest.iter_multiply (30 ms)
+[ RUN      ] DequeIterTest.iter_divide
+[       OK ] DequeIterTest.iter_divide (30 ms)
+[ RUN      ] DequeIterTest.iter_negate
+[       OK ] DequeIterTest.iter_negate (28 ms)
+[ RUN      ] DequeIterTest.iter_replace
+[       OK ] DequeIterTest.iter_replace (19 ms)
+[----------] 34 tests from DequeIterTest (776 ms total)
+
+[----------] Global test environment tear-down
+[==========] 212 tests from 3 test cases ran. (2404 ms total)
+[  PASSED  ] 212 tests.
+==22581== 
+==22581== HEAP SUMMARY:
+==22581==     in use at exit: 0 bytes in 0 blocks
+==22581==   total heap usage: 25,931 allocs, 25,931 frees, 1,669,044 bytes allocated
+==22581== 
+==22581== All heap blocks were freed -- no leaks are possible
+==22581== 
+==22581== For counts of detected and suppressed errors, rerun with: -v
+==22581== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
