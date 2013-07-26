@@ -1,3 +1,16 @@
+/* UT EID : davismc2 */
+
+/******************************************************************************
+ * Program: Project 4 - Deque
+ * Student: Merrill Davis
+ * CS Server ID: davismc
+ * Class: CS 378
+ * Summer 2013
+ *
+ * Implements the class MyDeque<T, A> to conform to std::deque<T, A>
+ *
+ *****************************************************************************/
+
 // ----------------------------
 // projects/deque/TestDeque.c++
 // Copyright (C) 2013
@@ -213,6 +226,24 @@ TEST(ConstIterator, iterator_operator_equals3) {
 	}
 }
 
+TEST(Iterator, iterator_operator_equals_4) {
+	MyDeque<int> x;
+	MyDeque<int>::iterator first;
+	first = x.begin();
+	MyDeque<int>::iterator second;
+	second = x.begin();
+	ASSERT_TRUE(first == second);
+}
+
+TEST(Iterator, iterator_operator_equals_5) {
+	MyDeque<int> x;
+	MyDeque<int>::const_iterator first;
+	first = x.begin();
+	MyDeque<int>::const_iterator second;
+	second = x.begin();
+	ASSERT_TRUE(first == second);
+}
+
 // ---------
 // iterator !=
 // ---------
@@ -305,7 +336,8 @@ TEST(Iterator, iterator_operator_arrow_2) {
 	MyDeque<std::string> x(2);
 	std::string s("AAA");
 	x.push_back(s);
-	MyDeque<std::string>::iterator b = x.begin();
+	MyDeque<std::string>::iterator b;
+	b = x.begin();
 	ASSERT_TRUE(strcmp(b->c_str(), s.c_str()));
 }
 
@@ -314,7 +346,8 @@ TEST(ConstIterator, const_iterator_operator_arrow_1) {
 	std::deque<std::string> x(2);
 	std::string s("AAA");
 	x.push_back(s);
-	std::deque<std::string>::const_iterator b = x.begin();
+	std::deque<std::string>::const_iterator b;
+ 	b = x.begin();
 	ASSERT_TRUE(strcmp(b->c_str(), s.c_str()));
 }
 
@@ -322,7 +355,8 @@ TEST(ConstIterator, const_iterator_operator_arrow_2) {
 	MyDeque<std::string> x(2);
 	std::string s("AAA");
 	x.push_back(s);
-	MyDeque<std::string>::const_iterator b = x.begin();
+	MyDeque<std::string>::const_iterator b;
+	b = x.begin();
 	ASSERT_TRUE(strcmp(b->c_str(), s.c_str()));
 }
 
@@ -912,7 +946,8 @@ TEST(Operations, at_const_4) {
 	}
 	catch (std::out_of_range& e){
 		ASSERT_TRUE(true);
-		ASSERT_TRUE(strcmp(e.what(), "_M_range_check"));}}
+		//ASSERT_TRUE(strcmp(e.what(), "_M_range_check"));
+		}}
 		//catch (std::invalid_argument& e) {
         //  CPPUNIT_ASSERT(strcmp(e.what(), "MyDeque::_M_range_check"));}}
 
@@ -1563,14 +1598,15 @@ TEST(Operations, swap_3) {
 // ----------
 // Acceptance Tests
 // ----------
-// Basic functionality - only uses constructors, push_back and at()
 
+// Basic functionality - only uses constructors, push_back and at()
 TEST(Acceptance, push_1){
-	int const NUM_TESTS = 5000;
+	int const NUM_TESTS = 50;
 
 	std::deque<int> x;
 	MyDeque<int> y;
 	int rand_value;
+		//y.print_deque();
 	for (int i = 0; i < NUM_TESTS; ++i){
 		rand_value = rand() % 99;
 		x.push_back(rand_value);
@@ -1615,7 +1651,7 @@ TEST(Acceptance, push_3){
 
 // test pop_back
 TEST(Acceptance, removals_1){
-	int const NUM_TESTS = 2000;
+	int const NUM_TESTS = 100;
 
 	std::deque<int> x;
 	MyDeque<int> y;
@@ -1710,7 +1746,7 @@ TEST(Acceptance, removals_4){
 
 // test erase(begin() + 1) - should be linear, can't optimize without random access iterator
 TEST(Acceptance, removals_5){
-	int const NUM_TESTS = 1000;
+	int const NUM_TESTS = 300;
 
 	std::deque<int> x;
 	MyDeque<int> y;
@@ -1793,6 +1829,34 @@ TEST(Acceptance, insert_4){
 	for (int i = 0; i < NUM_TESTS; ++i){
 		ASSERT_TRUE(x.at(i) == y.at(i));}}
 
+// random resizes
+TEST(Acceptance, random_resizes_1){
+	int const NUM_TESTS = 1000;
+
+	std::deque<int> x;
+	MyDeque<int> y;
+	long unsigned int rand_value;
+	for (int i = 0; i < NUM_TESTS; ++i){
+		rand_value = rand() % 99;
+		x.push_front(rand_value);
+		y.push_front(rand_value);
+		rand_value = rand() % 99;
+		x.push_back(rand_value);
+		y.push_back(rand_value);}
+	
+	int i = 0;
+	while (i < 30){
+		rand_value = rand() % 999;
+		//std::cout << "rand val: " << rand_value << std::endl;
+		x.resize(rand_value, i);
+		y.resize(rand_value, i);
+		//y.print_deque();
+		ASSERT_TRUE(x.size() == y.size());
+		for (unsigned i = 0; i < y.size(); ++i){
+			ASSERT_TRUE(x.at(i) == y.at(i));}
+		ASSERT_TRUE(*x.begin() == *y.begin());
+		ASSERT_TRUE(*(x.end() - 1)  == *(y.end() - 1));
+		++i;}}
 
 
  
