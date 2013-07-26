@@ -1,0 +1,64 @@
+Running main() from gtest_main.cc
+[==========] Running 24 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 12 tests from DequeTest/0, where TypeParam = std::deque<int, std::allocator<int> >
+[ RUN      ] DequeTest/0.fill_constructor_1
+[       OK ] DequeTest/0.fill_constructor_1 (0 ms)
+[ RUN      ] DequeTest/0.copy_constructor_1
+[       OK ] DequeTest/0.copy_constructor_1 (0 ms)
+[ RUN      ] DequeTest/0.size_1
+Before assert.
+After assert.
+[       OK ] DequeTest/0.size_1 (0 ms)
+[ RUN      ] DequeTest/0.size_2
+[       OK ] DequeTest/0.size_2 (0 ms)
+[ RUN      ] DequeTest/0.subscript_operator_1
+[       OK ] DequeTest/0.subscript_operator_1 (0 ms)
+[ RUN      ] DequeTest/0.front_1
+[       OK ] DequeTest/0.front_1 (0 ms)
+[ RUN      ] DequeTest/0.back_1
+[       OK ] DequeTest/0.back_1 (0 ms)
+[ RUN      ] DequeTest/0.empty_1
+[       OK ] DequeTest/0.empty_1 (0 ms)
+[ RUN      ] DequeTest/0.push_back_1
+[       OK ] DequeTest/0.push_back_1 (0 ms)
+[ RUN      ] DequeTest/0.push_back_2
+[       OK ] DequeTest/0.push_back_2 (0 ms)
+[ RUN      ] DequeTest/0.push_front_1
+[       OK ] DequeTest/0.push_front_1 (0 ms)
+[ RUN      ] DequeTest/0.push_front_2
+[       OK ] DequeTest/0.push_front_2 (0 ms)
+[----------] 12 tests from DequeTest/0 (1 ms total)
+
+[----------] 12 tests from DequeTest/1, where TypeParam = MyDeque<int, std::allocator<int> >
+[ RUN      ] DequeTest/1.fill_constructor_1
+[       OK ] DequeTest/1.fill_constructor_1 (0 ms)
+[ RUN      ] DequeTest/1.copy_constructor_1
+[       OK ] DequeTest/1.copy_constructor_1 (0 ms)
+[ RUN      ] DequeTest/1.size_1
+Before assert.
+After assert.
+[       OK ] DequeTest/1.size_1 (0 ms)
+[ RUN      ] DequeTest/1.size_2
+[       OK ] DequeTest/1.size_2 (0 ms)
+[ RUN      ] DequeTest/1.subscript_operator_1
+[       OK ] DequeTest/1.subscript_operator_1 (0 ms)
+[ RUN      ] DequeTest/1.front_1
+[       OK ] DequeTest/1.front_1 (0 ms)
+[ RUN      ] DequeTest/1.back_1
+[       OK ] DequeTest/1.back_1 (0 ms)
+[ RUN      ] DequeTest/1.empty_1
+[       OK ] DequeTest/1.empty_1 (0 ms)
+[ RUN      ] DequeTest/1.push_back_1
+[       OK ] DequeTest/1.push_back_1 (0 ms)
+[ RUN      ] DequeTest/1.push_back_2
+[       OK ] DequeTest/1.push_back_2 (0 ms)
+[ RUN      ] DequeTest/1.push_front_1
+[       OK ] DequeTest/1.push_front_1 (0 ms)
+[ RUN      ] DequeTest/1.push_front_2
+[       OK ] DequeTest/1.push_front_2 (0 ms)
+[----------] 12 tests from DequeTest/1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 24 tests from 2 test cases ran. (1 ms total)
+[  PASSED  ] 24 tests.
