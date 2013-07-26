@@ -1,0 +1,29 @@
+==11662== Memcheck, a memory error detector
+==11662== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==11662== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==11662== Command: TestDeque
+==11662== 
+TestDeque.c++
+
+..............................................................
+
+
+OK (62 tests)
+
+
+Done.
+==11662== 
+==11662== HEAP SUMMARY:
+==11662==     in use at exit: 122,880 bytes in 6 blocks
+==11662==   total heap usage: 4,102 allocs, 4,096 frees, 555,700 bytes allocated
+==11662== 
+==11662== LEAK SUMMARY:
+==11662==    definitely lost: 0 bytes in 0 blocks
+==11662==    indirectly lost: 0 bytes in 0 blocks
+==11662==      possibly lost: 0 bytes in 0 blocks
+==11662==    still reachable: 122,880 bytes in 6 blocks
+==11662==         suppressed: 0 bytes in 0 blocks
+==11662== Rerun with --leak-check=full to see details of leaked memory
+==11662== 
+==11662== For counts of detected and suppressed errors, rerun with: -v
+==11662== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
