@@ -1,0 +1,115 @@
+TestDeque.c++
+
+....................Testing is x[0] == 1
+x[0] ? 0
+Testing is x[1] == 2
+x[1] ? 1
+Testing is x[2] == 3
+x[2] ? 2
+Testing is x[3] == 4
+x[3] ? 3
+Testing is x[4] == 5
+x[4] ? 4
+.Testing is x[0] == 0
+x[0] ? 0
+Testing is x[1] == 1
+x[1] ? 1
+Testing is x[2] == 2
+x[2] ? 2
+Testing is x[3] == 3
+x[3] ? 3
+Testing is x[4] == 4
+x[4] ? 4
+Testing is x[5] == 5
+x[5] ? 5
+Testing is x[6] == 6
+x[6] ? 6
+Testing is x[7] == 7
+x[7] ? 7
+Testing is x[8] == 8
+x[8] ? 8
+Testing is x[9] == 9
+x[9] ? 9
+Testing is x[10] == 10
+x[10] ? 10
+Testing is x[11] == 11
+x[11] ? 11
+Testing is x[12] == 12
+x[12] ? 12
+Testing is x[13] == 13
+x[13] ? 13
+Testing is x[14] == 14
+x[14] ? 14
+Testing is x[15] == 15
+x[15] ? 15
+Testing is x[16] == 16
+x[16] ? 16
+Testing is x[17] == 17
+x[17] ? 17
+Testing is x[18] == 18
+x[18] ? 18
+Testing is x[19] == 19
+x[19] ? 19
+........................== Const 
+* const 7
+* const 8
+..== Const 
+* const 3
+* const 7
+.....................Testing is x[0] == 1
+x[0] ? 0
+Testing is x[1] == 2
+x[1] ? 1
+Testing is x[2] == 3
+x[2] ? 2
+Testing is x[3] == 4
+x[3] ? 3
+Testing is x[4] == 5
+x[4] ? 4
+.Testing is x[0] == 0
+x[0] ? 0
+Testing is x[1] == 1
+x[1] ? 1
+Testing is x[2] == 2
+x[2] ? 2
+Testing is x[3] == 3
+x[3] ? 3
+Testing is x[4] == 4
+x[4] ? 4
+Testing is x[5] == 5
+x[5] ? 5
+Testing is x[6] == 6
+x[6] ? 6
+Testing is x[7] == 7
+x[7] ? 7
+Testing is x[8] == 8
+x[8] ? 8
+Testing is x[9] == 9
+x[9] ? 9
+Testing is x[10] == 10
+x[10] ? 10
+Testing is x[11] == 11
+x[11] ? 11
+Testing is x[12] == 12
+x[12] ? 12
+Testing is x[13] == 13
+x[13] ? 13
+Testing is x[14] == 14
+x[14] ? 14
+Testing is x[15] == 15
+x[15] ? 15
+Testing is x[16] == 16
+x[16] ? 16
+Testing is x[17] == 17
+x[17] ? 17
+Testing is x[18] == 18
+x[18] ? 18
+Testing is x[19] == 19
+x[19] ? 19
+...........................
+
+
+OK (96 tests)
+
+
+Done.

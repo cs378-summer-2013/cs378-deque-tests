@@ -166,8 +166,8 @@ struct TestDeque : CppUnit::TestFixture {
 	x.push_front(2);
 	x.push_front(1);
 	for (int i = 0 ; i < 5; i++ ) {
-	  cout << "Testing is x[" << i << "] == " << i+1 << endl;
-	  cout << "x[" << i << "] ? " << i  << endl;
+	  //cout << "Testing is x[" << i << "] == " << i+1 << endl;
+	  //cout << "x[" << i << "] ? " << i  << endl;
 	  CPPUNIT_ASSERT(x[i] == i+1);
 	}
     }
@@ -179,8 +179,8 @@ struct TestDeque : CppUnit::TestFixture {
 	    CPPUNIT_ASSERT(x.front() == i);
 	}
 	for (int i = 0 ; i < 20; i++ ) {
-	  cout << "Testing is x[" << i << "] == " << i << endl;
-	  cout << "x[" << i << "] ? " << i  << endl;
+	  //cout << "Testing is x[" << i << "] == " << i << endl;
+	  //cout << "x[" << i << "] ? " << i  << endl;
 	  CPPUNIT_ASSERT(x[i] == i);
 	}
     }
@@ -297,9 +297,9 @@ struct TestDeque : CppUnit::TestFixture {
     /** Need to test more thorougly */
     void test_end() {
       C x(3,2);
-      cout << endl << "Testing end() " << endl;
-      cout << "*(x.end()) = " << *(x.end()) << endl;
-      cout << "x.back() = " << x.back() << endl;
+      //cout << endl << "Testing end() " << endl;
+      //cout << "*(x.end()) = " << *(x.end()) << endl;
+      //cout << "x.back() = " << x.back() << endl;
       CPPUNIT_ASSERT(*(--x.end()) == x.back());
     }
     
@@ -404,6 +404,25 @@ struct TestDeque : CppUnit::TestFixture {
      CPPUNIT_ASSERT(y.size() == 14);
      CPPUNIT_ASSERT(y.front() == 5);
      CPPUNIT_ASSERT(y.back() == 5);
+    }
+    
+    void test_resize() {
+     C x(12, 5);
+     x.resize(20);
+     CPPUNIT_ASSERT(x.size() == 20);
+    }
+    
+    void test_resize1() {
+     C x(12, 5);
+     x.resize(4);
+     CPPUNIT_ASSERT(x.size() == 4);
+    }
+    
+    void test_resize2() {
+     C x;
+     x.resize(4);
+     cout << "size: " << x.size() <<endl;
+     CPPUNIT_ASSERT(x.size() == 4);
     }
     
 	/*
@@ -711,6 +730,9 @@ struct TestDeque : CppUnit::TestFixture {
      CPPUNIT_TEST(test_equalequal1);
      CPPUNIT_TEST(test_equalequal2);
      CPPUNIT_TEST(test_assignment);
+     CPPUNIT_TEST(test_resize);
+     CPPUNIT_TEST(test_resize1);
+     CPPUNIT_TEST(test_resize2);
  
     /*
     CPPUNIT_TEST(test_size2);
