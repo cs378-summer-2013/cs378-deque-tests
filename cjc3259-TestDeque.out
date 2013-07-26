@@ -1,0 +1,233 @@
+Running main() from gtest_main.cc
+[==========] Running 76 tests from 25 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from Tests/0, where TypeParam = std::deque<int, std::allocator<int> >
+[ RUN      ] Tests/0.allocator
+[       OK ] Tests/0.allocator (37 ms)
+[----------] 1 test from Tests/0 (61 ms total)
+
+[----------] 1 test from Tests/1, where TypeParam = MyDeque<int, std::allocator<int> >
+[ RUN      ] Tests/1.allocator
+[       OK ] Tests/1.allocator (9 ms)
+[----------] 1 test from Tests/1 (11 ms total)
+
+[----------] 8 tests from Constructor
+[ RUN      ] Constructor.def_constructor_1
+[       OK ] Constructor.def_constructor_1 (4 ms)
+[ RUN      ] Constructor.size_constructor_1
+[       OK ] Constructor.size_constructor_1 (13 ms)
+[ RUN      ] Constructor.size_constructor_2
+[       OK ] Constructor.size_constructor_2 (6 ms)
+[ RUN      ] Constructor.size_constructor_3
+[       OK ] Constructor.size_constructor_3 (6 ms)
+[ RUN      ] Constructor.size_constructor_4
+[       OK ] Constructor.size_constructor_4 (6 ms)
+[ RUN      ] Constructor.copy_constructor_1
+[       OK ] Constructor.copy_constructor_1 (9 ms)
+[ RUN      ] Constructor.copy_constructor_2
+[       OK ] Constructor.copy_constructor_2 (10 ms)
+[ RUN      ] Constructor.copy_constructor_3
+[       OK ] Constructor.copy_constructor_3 (7 ms)
+[----------] 8 tests from Constructor (64 ms total)
+
+[----------] 5 tests from Resize
+[ RUN      ] Resize.resize_1
+[       OK ] Resize.resize_1 (4 ms)
+[ RUN      ] Resize.resize_2
+[       OK ] Resize.resize_2 (4 ms)
+[ RUN      ] Resize.resize_3
+[       OK ] Resize.resize_3 (6 ms)
+[ RUN      ] Resize.resize_4
+[       OK ] Resize.resize_4 (14 ms)
+[ RUN      ] Resize.resize_5
+[       OK ] Resize.resize_5 (6 ms)
+[----------] 5 tests from Resize (37 ms total)
+
+[----------] 3 tests from Size
+[ RUN      ] Size.size_1
+[       OK ] Size.size_1 (5 ms)
+[ RUN      ] Size.size_2
+[       OK ] Size.size_2 (9 ms)
+[ RUN      ] Size.size_3
+[       OK ] Size.size_3 (6 ms)
+[----------] 3 tests from Size (21 ms total)
+
+[----------] 3 tests from SWAP
+[ RUN      ] SWAP.swap_1
+[       OK ] SWAP.swap_1 (9 ms)
+[ RUN      ] SWAP.swap_2
+[       OK ] SWAP.swap_2 (9 ms)
+[ RUN      ] SWAP.swap_3
+[       OK ] SWAP.swap_3 (7 ms)
+[----------] 3 tests from SWAP (26 ms total)
+
+[----------] 3 tests from PushFront
+[ RUN      ] PushFront.push_front_1
+[       OK ] PushFront.push_front_1 (7 ms)
+[ RUN      ] PushFront.push_front_2
+[       OK ] PushFront.push_front_2 (9 ms)
+[ RUN      ] PushFront.push_front_3
+[       OK ] PushFront.push_front_3 (7 ms)
+[----------] 3 tests from PushFront (24 ms total)
+
+[----------] 3 tests from PushBack
+[ RUN      ] PushBack.push_back_1
+[       OK ] PushBack.push_back_1 (6 ms)
+[ RUN      ] PushBack.push_back_2
+[       OK ] PushBack.push_back_2 (6 ms)
+[ RUN      ] PushBack.push_back_3
+[       OK ] PushBack.push_back_3 (6 ms)
+[----------] 3 tests from PushBack (20 ms total)
+
+[----------] 3 tests from PopFront
+[ RUN      ] PopFront.pop_front_1
+[       OK ] PopFront.pop_front_1 (6 ms)
+[ RUN      ] PopFront.pop_front_2
+[       OK ] PopFront.pop_front_2 (5 ms)
+[ RUN      ] PopFront.pop_front_3
+[       OK ] PopFront.pop_front_3 (7 ms)
+[----------] 3 tests from PopFront (18 ms total)
+
+[----------] 3 tests from PopBack
+[ RUN      ] PopBack.pop_back_1
+[       OK ] PopBack.pop_back_1 (6 ms)
+[ RUN      ] PopBack.pop_back_2
+[       OK ] PopBack.pop_back_2 (4 ms)
+[ RUN      ] PopBack.pop_back_3
+[       OK ] PopBack.pop_back_3 (5 ms)
+[----------] 3 tests from PopBack (17 ms total)
+
+[----------] 3 tests from Front
+[ RUN      ] Front.front_1
+[       OK ] Front.front_1 (10 ms)
+[ RUN      ] Front.front_2
+[       OK ] Front.front_2 (3 ms)
+[ RUN      ] Front.front_3
+[       OK ] Front.front_3 (4 ms)
+[----------] 3 tests from Front (19 ms total)
+
+[----------] 1 test from Erase
+[ RUN      ] Erase.erase_1
+[       OK ] Erase.erase_1 (9 ms)
+[----------] 1 test from Erase (9 ms total)
+
+[----------] 3 tests from End
+[ RUN      ] End.end_1
+[       OK ] End.end_1 (6 ms)
+[ RUN      ] End.end_2
+[       OK ] End.end_2 (4 ms)
+[ RUN      ] End.end_3
+[       OK ] End.end_3 (4 ms)
+[----------] 3 tests from End (15 ms total)
+
+[----------] 3 tests from Clear
+[ RUN      ] Clear.clear_1
+[       OK ] Clear.clear_1 (4 ms)
+[ RUN      ] Clear.clear_2
+[       OK ] Clear.clear_2 (4 ms)
+[ RUN      ] Clear.clear_3
+[       OK ] Clear.clear_3 (3 ms)
+[----------] 3 tests from Clear (13 ms total)
+
+[----------] 3 tests from Begin
+[ RUN      ] Begin.begin_1
+[       OK ] Begin.begin_1 (4 ms)
+[ RUN      ] Begin.begin_2
+[       OK ] Begin.begin_2 (4 ms)
+[ RUN      ] Begin.begin_3
+[       OK ] Begin.begin_3 (5 ms)
+[----------] 3 tests from Begin (14 ms total)
+
+[----------] 3 tests from Back
+[ RUN      ] Back.back_1
+[       OK ] Back.back_1 (4 ms)
+[ RUN      ] Back.back_2
+[       OK ] Back.back_2 (4 ms)
+[ RUN      ] Back.back_3
+[       OK ] Back.back_3 (4 ms)
+[----------] 3 tests from Back (12 ms total)
+
+[----------] 3 tests from At
+[ RUN      ] At.at_1
+[       OK ] At.at_1 (4 ms)
+[ RUN      ] At.at_2
+[       OK ] At.at_2 (6 ms)
+[ RUN      ] At.at_3
+[       OK ] At.at_3 (6 ms)
+[----------] 3 tests from At (17 ms total)
+
+[----------] 3 tests from Brackets
+[ RUN      ] Brackets.brackets_1
+[       OK ] Brackets.brackets_1 (4 ms)
+[ RUN      ] Brackets.brackets_2
+[       OK ] Brackets.brackets_2 (5 ms)
+[ RUN      ] Brackets.brackets_3
+[       OK ] Brackets.brackets_3 (8 ms)
+[----------] 3 tests from Brackets (18 ms total)
+
+[----------] 3 tests from IteratorMinusEqual
+[ RUN      ] IteratorMinusEqual.iterator_minus_equal_1
+[       OK ] IteratorMinusEqual.iterator_minus_equal_1 (5 ms)
+[ RUN      ] IteratorMinusEqual.iterator_minus_equal_2
+[       OK ] IteratorMinusEqual.iterator_minus_equal_2 (4 ms)
+[ RUN      ] IteratorMinusEqual.iterator_minus_equal_3
+[       OK ] IteratorMinusEqual.iterator_minus_equal_3 (5 ms)
+[----------] 3 tests from IteratorMinusEqual (15 ms total)
+
+[----------] 3 tests from IteratorPlusEqual
+[ RUN      ] IteratorPlusEqual.iterator_plus_equal_1
+[       OK ] IteratorPlusEqual.iterator_plus_equal_1 (5 ms)
+[ RUN      ] IteratorPlusEqual.iterator_plus_equal_2
+[       OK ] IteratorPlusEqual.iterator_plus_equal_2 (5 ms)
+[ RUN      ] IteratorPlusEqual.iterator_plus_equal_3
+[       OK ] IteratorPlusEqual.iterator_plus_equal_3 (5 ms)
+[----------] 3 tests from IteratorPlusEqual (15 ms total)
+
+[----------] 3 tests from IteratorPostIncr
+[ RUN      ] IteratorPostIncr.iterator_post_incr_1
+[       OK ] IteratorPostIncr.iterator_post_incr_1 (5 ms)
+[ RUN      ] IteratorPostIncr.iterator_post_incr_2
+[       OK ] IteratorPostIncr.iterator_post_incr_2 (5 ms)
+[ RUN      ] IteratorPostIncr.iterator_post_incr_3
+[       OK ] IteratorPostIncr.iterator_post_incr_3 (5 ms)
+[----------] 3 tests from IteratorPostIncr (15 ms total)
+
+[----------] 3 tests from IteratorPreIncr
+[ RUN      ] IteratorPreIncr.iterator_pre_incr_1
+[       OK ] IteratorPreIncr.iterator_pre_incr_1 (4 ms)
+[ RUN      ] IteratorPreIncr.iterator_pre_incr_2
+[       OK ] IteratorPreIncr.iterator_pre_incr_2 (5 ms)
+[ RUN      ] IteratorPreIncr.iterator_pre_incr_3
+[       OK ] IteratorPreIncr.iterator_pre_incr_3 (5 ms)
+[----------] 3 tests from IteratorPreIncr (14 ms total)
+
+[----------] 3 tests from IteratorStar
+[ RUN      ] IteratorStar.iterator_star_1
+[       OK ] IteratorStar.iterator_star_1 (4 ms)
+[ RUN      ] IteratorStar.iterator_star_2
+[       OK ] IteratorStar.iterator_star_2 (4 ms)
+[ RUN      ] IteratorStar.iterator_star_3
+[       OK ] IteratorStar.iterator_star_3 (4 ms)
+[----------] 3 tests from IteratorStar (13 ms total)
+
+[----------] 3 tests from DequeLessThan
+[ RUN      ] DequeLessThan.deque_less_than_1
+[       OK ] DequeLessThan.deque_less_than_1 (13 ms)
+[ RUN      ] DequeLessThan.deque_less_than_2
+[       OK ] DequeLessThan.deque_less_than_2 (5 ms)
+[ RUN      ] DequeLessThan.deque_less_than_3
+[       OK ] DequeLessThan.deque_less_than_3 (5 ms)
+[----------] 3 tests from DequeLessThan (25 ms total)
+
+[----------] 3 tests from DequeEqualEqual
+[ RUN      ] DequeEqualEqual.deque_equal_equal_1
+[       OK ] DequeEqualEqual.deque_equal_equal_1 (8 ms)
+[ RUN      ] DequeEqualEqual.deque_equal_equal_2
+[       OK ] DequeEqualEqual.deque_equal_equal_2 (8 ms)
+[ RUN      ] DequeEqualEqual.deque_equal_equal_3
+[       OK ] DequeEqualEqual.deque_equal_equal_3 (5 ms)
+[----------] 3 tests from DequeEqualEqual (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 76 tests from 25 test cases ran. (612 ms total)
+[  PASSED  ] 76 tests.
