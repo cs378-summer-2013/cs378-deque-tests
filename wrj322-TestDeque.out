@@ -1,306 +1,64 @@
 Running main() from gtest_main.cc
-[==========] Running 42 tests from 1 test case.
+[==========] Running 30 tests from 3 test cases.
 [----------] Global test environment set-up.
-[----------] 42 tests from DequeTest/0, where TypeParam = std::deque<int, std::allocator<int> >
-[ RUN      ] DequeTest/0.iterator_operator_equal_01
-TestDeque.c++:62: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.iterator_operator_equal_01, where TypeParam = std::deque<int, std::allocator<int> > (73 ms)
-[ RUN      ] DequeTest/0.iterator_valid_01
-TestDeque.c++:66: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.iterator_valid_01, where TypeParam = std::deque<int, std::allocator<int> > (10 ms)
+[----------] 10 tests from DequeTest/0, where TypeParam = std::deque<int, std::allocator<int> >
 [ RUN      ] DequeTest/0.iterator_default_constructor_01
-TestDeque.c++:70: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.iterator_default_constructor_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.iterator_operator_deference_01
-TestDeque.c++:74: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.iterator_operator_deference_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.iterator_operator_increment_prefix_01
-TestDeque.c++:78: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.iterator_operator_increment_prefix_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.iterator_operator_decrement_prefix_01
-TestDeque.c++:82: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.iterator_operator_decrement_prefix_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.iterator_operator_plus_equal_01
-TestDeque.c++:86: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.iterator_operator_plus_equal_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.iterator_operator_minus_equal_01
-TestDeque.c++:90: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.iterator_operator_minus_equal_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.const_iterator_operator_equal_01
-TestDeque.c++:100: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.const_iterator_operator_equal_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.const_iterator_valid_01
-TestDeque.c++:104: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.const_iterator_valid_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.const_iterator_default_constructor_01
-TestDeque.c++:108: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.const_iterator_default_constructor_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.const_iterator_operator_deference_01
-TestDeque.c++:112: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.const_iterator_operator_deference_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.const_iterator_operator_increment_prefix_01
-TestDeque.c++:116: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.const_iterator_operator_increment_prefix_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.const_iterator_operator_decrement_prefix_01
-TestDeque.c++:120: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.const_iterator_operator_decrement_prefix_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.const_iterator_operator_plus_equal_01
-TestDeque.c++:124: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.const_iterator_operator_plus_equal_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.const_iterator_operator_minus_equal_01
-TestDeque.c++:128: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.const_iterator_operator_minus_equal_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.deque_operator_equal_01
-TestDeque.c++:138: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_operator_equal_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.deque_operator_less_than_01
-TestDeque.c++:142: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_operator_less_than_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.deque_valid_01
-TestDeque.c++:146: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_valid_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
+[       OK ] DequeTest/0.iterator_default_constructor_01 (31 ms)
 [ RUN      ] DequeTest/0.deque_constructor_allocator_01
-TestDeque.c++:150: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_constructor_allocator_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.deque_constructor_size_value_allocator_01
-TestDeque.c++:154: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_constructor_size_value_allocator_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.deque_constructor_deque_01
-TestDeque.c++:158: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_constructor_deque_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.deque_destructor_01
-TestDeque.c++:162: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_destructor_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.deque_operator_assignment_01
-TestDeque.c++:166: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_operator_assignment_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.deque_operator_index_01
-TestDeque.c++:170: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_operator_index_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.deque_at_01
-TestDeque.c++:174: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_at_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.deque_back_01
-TestDeque.c++:178: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_back_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
+this->x.size(): 0
+this->y.size(): 0
+[       OK ] DequeTest/0.deque_constructor_allocator_01 (9 ms)
 [ RUN      ] DequeTest/0.deque_begin_01
-TestDeque.c++:182: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_begin_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.deque_begin_const_01
-TestDeque.c++:186: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_begin_const_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.deque_clear_01
-TestDeque.c++:190: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_clear_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.deque_end_01
-TestDeque.c++:194: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_end_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.deque_end_const_01
-TestDeque.c++:198: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_end_const_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.deque_erase_01
-TestDeque.c++:202: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_erase_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.deque_front_01
-TestDeque.c++:206: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_front_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.deque_insert_01
-TestDeque.c++:210: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.deque_insert_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.pop_back_01
-TestDeque.c++:214: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.pop_back_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[ RUN      ] DequeTest/0.pop_front_01
-TestDeque.c++:218: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.pop_front_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
+[       OK ] DequeTest/0.deque_begin_01 (6 ms)
 [ RUN      ] DequeTest/0.push_back_01
-TestDeque.c++:222: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.push_back_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
+[       OK ] DequeTest/0.push_back_01 (9 ms)
+[ RUN      ] DequeTest/0.push_back_02
+[       OK ] DequeTest/0.push_back_02 (4 ms)
+[ RUN      ] DequeTest/0.push_back_03
+[       OK ] DequeTest/0.push_back_03 (13 ms)
 [ RUN      ] DequeTest/0.push_front_01
-TestDeque.c++:226: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.push_front_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.resize_01
-TestDeque.c++:230: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.resize_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
+[       OK ] DequeTest/0.push_front_01 (9 ms)
+[ RUN      ] DequeTest/0.push_front_02
+[       OK ] DequeTest/0.push_front_02 (4 ms)
+[ RUN      ] DequeTest/0.push_front_03
+[       OK ] DequeTest/0.push_front_03 (10 ms)
 [ RUN      ] DequeTest/0.size_01
-TestDeque.c++:234: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.size_01, where TypeParam = std::deque<int, std::allocator<int> > (5 ms)
-[ RUN      ] DequeTest/0.swap_01
-TestDeque.c++:238: Failure
-Value of: false
-  Actual: false
-Expected: true
-[  FAILED  ] DequeTest/0.swap_01, where TypeParam = std::deque<int, std::allocator<int> > (4 ms)
-[----------] 42 tests from DequeTest/0 (297 ms total)
+[       OK ] DequeTest/0.size_01 (3 ms)
+[----------] 10 tests from DequeTest/0 (109 ms total)
 
-[----------] Global test environment tear-down
-[==========] 42 tests from 1 test case ran. (360 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 42 tests, listed below:
-[  FAILED  ] DequeTest/0.iterator_operator_equal_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.iterator_valid_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.iterator_default_constructor_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.iterator_operator_deference_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.iterator_operator_increment_prefix_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.iterator_operator_decrement_prefix_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.iterator_operator_plus_equal_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.iterator_operator_minus_equal_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.const_iterator_operator_equal_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.const_iterator_valid_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.const_iterator_default_constructor_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.const_iterator_operator_deference_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.const_iterator_operator_increment_prefix_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.const_iterator_operator_decrement_prefix_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.const_iterator_operator_plus_equal_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.const_iterator_operator_minus_equal_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_operator_equal_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_operator_less_than_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_valid_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_constructor_allocator_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_constructor_size_value_allocator_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_constructor_deque_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_destructor_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_operator_assignment_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_operator_index_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_at_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_back_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_begin_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_begin_const_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_clear_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_end_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_end_const_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_erase_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_front_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.deque_insert_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.pop_back_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.pop_front_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.push_back_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.push_front_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.resize_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.size_01, where TypeParam = std::deque<int, std::allocator<int> >
-[  FAILED  ] DequeTest/0.swap_01, where TypeParam = std::deque<int, std::allocator<int> >
-
-42 FAILED TESTS
+[----------] 10 tests from DequeTest/1, where TypeParam = MyDeque<int, std::allocator<int> >
+[ RUN      ] DequeTest/1.iterator_default_constructor_01
+[       OK ] DequeTest/1.iterator_default_constructor_01 (9 ms)
+[ RUN      ] DequeTest/1.deque_constructor_allocator_01
+this->x.size(): 0
+this->y.size(): 0
+[       OK ] DequeTest/1.deque_constructor_allocator_01 (3 ms)
+[ RUN      ] DequeTest/1.deque_begin_01
+[       OK ] DequeTest/1.deque_begin_01 (7 ms)
+[ RUN      ] DequeTest/1.push_back_01
+TestDeque.c++:493: Failure
+Value of: this->x.front()
+  Actual: 0
+Expected: 1
+[  FAILED  ] DequeTest/1.push_back_01, where TypeParam = MyDeque<int, std::allocator<int> > (36 ms)
+[ RUN      ] DequeTest/1.push_back_02
+TestDeque.c++:511: Failure
+Value of: this->x.front()
+  Actual: 0
+Expected: -2147483647
+[  FAILED  ] DequeTest/1.push_back_02, where TypeParam = MyDeque<int, std::allocator<int> > (7 ms)
+[ RUN      ] DequeTest/1.push_back_03
+[       OK ] DequeTest/1.push_back_03 (137 ms)
+[ RUN      ] DequeTest/1.push_front_01
+TestDeque.c++:532: Failure
+Value of: this->x.back()
+  Actual: 0
+Expected: 1
+[  FAILED  ] DequeTest/1.push_front_01, where TypeParam = MyDeque<int, std::allocator<int> > (6 ms)
+[ RUN      ] DequeTest/1.push_front_02
+TestDeque.c++:550: Failure
+Value of: this->x.back()
+  Actual: 0
+Expected: -2147483647
+[  FAILED  ] DequeTest/1.push_front_02, where TypeParam = MyDeque<int, std::allocator<int> > (5 ms)
+[ RUN      ] DequeTest/1.push_front_03
