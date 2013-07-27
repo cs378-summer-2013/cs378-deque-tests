@@ -1,0 +1,251 @@
+Running main() from gtest_main.cc
+[==========] Running 118 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 65 tests from MyDeque
+[ RUN      ] MyDeque.Size1
+[       OK ] MyDeque.Size1 (0 ms)
+[ RUN      ] MyDeque.Size2
+[       OK ] MyDeque.Size2 (0 ms)
+[ RUN      ] MyDeque.Size3
+[       OK ] MyDeque.Size3 (0 ms)
+[ RUN      ] MyDeque.FillConstructor1
+[       OK ] MyDeque.FillConstructor1 (0 ms)
+[ RUN      ] MyDeque.FillConstructor2
+[       OK ] MyDeque.FillConstructor2 (0 ms)
+[ RUN      ] MyDeque.FillConstructor3
+[       OK ] MyDeque.FillConstructor3 (0 ms)
+[ RUN      ] MyDeque.CopyConstructor1
+[       OK ] MyDeque.CopyConstructor1 (0 ms)
+[ RUN      ] MyDeque.CopyConstructor2
+[       OK ] MyDeque.CopyConstructor2 (0 ms)
+[ RUN      ] MyDeque.CopyConstructor3
+[       OK ] MyDeque.CopyConstructor3 (0 ms)
+[ RUN      ] MyDeque.Assignment1
+[       OK ] MyDeque.Assignment1 (0 ms)
+[ RUN      ] MyDeque.Assignment2
+[       OK ] MyDeque.Assignment2 (0 ms)
+[ RUN      ] MyDeque.Assignment3
+[       OK ] MyDeque.Assignment3 (0 ms)
+[ RUN      ] MyDeque.Equality1
+[       OK ] MyDeque.Equality1 (0 ms)
+[ RUN      ] MyDeque.Equality2
+[       OK ] MyDeque.Equality2 (0 ms)
+[ RUN      ] MyDeque.Equality3
+[       OK ] MyDeque.Equality3 (0 ms)
+[ RUN      ] MyDeque.Equality4
+[       OK ] MyDeque.Equality4 (0 ms)
+[ RUN      ] MyDeque.Lexicographical1
+[       OK ] MyDeque.Lexicographical1 (0 ms)
+[ RUN      ] MyDeque.Lexicograhpical2
+[       OK ] MyDeque.Lexicograhpical2 (0 ms)
+[ RUN      ] MyDeque.Lexicographical3
+[       OK ] MyDeque.Lexicographical3 (0 ms)
+[ RUN      ] MyDeque.Index1
+[       OK ] MyDeque.Index1 (0 ms)
+[ RUN      ] MyDeque.Index2
+[       OK ] MyDeque.Index2 (0 ms)
+[ RUN      ] MyDeque.Index3
+[       OK ] MyDeque.Index3 (0 ms)
+[ RUN      ] MyDeque.At1
+[       OK ] MyDeque.At1 (0 ms)
+[ RUN      ] MyDeque.At2
+[       OK ] MyDeque.At2 (0 ms)
+[ RUN      ] MyDeque.At3
+[       OK ] MyDeque.At3 (0 ms)
+[ RUN      ] MyDeque.Back1
+[       OK ] MyDeque.Back1 (0 ms)
+[ RUN      ] MyDeque.Back2
+[       OK ] MyDeque.Back2 (0 ms)
+[ RUN      ] MyDeque.Back3
+[       OK ] MyDeque.Back3 (0 ms)
+[ RUN      ] MyDeque.Front1
+[       OK ] MyDeque.Front1 (0 ms)
+[ RUN      ] MyDeque.Front2
+[       OK ] MyDeque.Front2 (0 ms)
+[ RUN      ] MyDeque.Front3
+[       OK ] MyDeque.Front3 (0 ms)
+[ RUN      ] MyDeque.Begin1
+[       OK ] MyDeque.Begin1 (0 ms)
+[ RUN      ] MyDeque.Begin2
+[       OK ] MyDeque.Begin2 (0 ms)
+[ RUN      ] MyDeque.Begin3
+[       OK ] MyDeque.Begin3 (0 ms)
+[ RUN      ] MyDeque.End1
+[       OK ] MyDeque.End1 (0 ms)
+[ RUN      ] MyDeque.End2
+[       OK ] MyDeque.End2 (0 ms)
+[ RUN      ] MyDeque.End3
+[       OK ] MyDeque.End3 (0 ms)
+[ RUN      ] MyDeque.End4
+[       OK ] MyDeque.End4 (0 ms)
+[ RUN      ] MyDeque.Erase1
+[       OK ] MyDeque.Erase1 (0 ms)
+[ RUN      ] MyDeque.Erase2
+[       OK ] MyDeque.Erase2 (0 ms)
+[ RUN      ] MyDeque.Erase3
+[       OK ] MyDeque.Erase3 (0 ms)
+[ RUN      ] MyDeque.Insert1
+[       OK ] MyDeque.Insert1 (0 ms)
+[ RUN      ] MyDeque.Insert2
+[       OK ] MyDeque.Insert2 (0 ms)
+[ RUN      ] MyDeque.Insert3
+[       OK ] MyDeque.Insert3 (0 ms)
+[ RUN      ] MyDeque.PopBack1
+[       OK ] MyDeque.PopBack1 (0 ms)
+[ RUN      ] MyDeque.PopBack2
+[       OK ] MyDeque.PopBack2 (0 ms)
+[ RUN      ] MyDeque.PopBack3
+[       OK ] MyDeque.PopBack3 (0 ms)
+[ RUN      ] MyDeque.PopFront1
+[       OK ] MyDeque.PopFront1 (0 ms)
+[ RUN      ] MyDeque.PopFront2
+[       OK ] MyDeque.PopFront2 (0 ms)
+[ RUN      ] MyDeque.PopFront3
+[       OK ] MyDeque.PopFront3 (0 ms)
+[ RUN      ] MyDeque.PushBack1
+[       OK ] MyDeque.PushBack1 (0 ms)
+[ RUN      ] MyDeque.PushBack2
+[       OK ] MyDeque.PushBack2 (0 ms)
+[ RUN      ] MyDeque.PushBack3
+[       OK ] MyDeque.PushBack3 (0 ms)
+[ RUN      ] MyDeque.PushFront1
+[       OK ] MyDeque.PushFront1 (0 ms)
+[ RUN      ] MyDeque.PushFront2
+[       OK ] MyDeque.PushFront2 (0 ms)
+[ RUN      ] MyDeque.PushFront3
+[       OK ] MyDeque.PushFront3 (1 ms)
+[ RUN      ] MyDeque.Resize1
+[       OK ] MyDeque.Resize1 (0 ms)
+[ RUN      ] MyDeque.Resize2
+[       OK ] MyDeque.Resize2 (0 ms)
+[ RUN      ] MyDeque.Resize3
+[       OK ] MyDeque.Resize3 (0 ms)
+[ RUN      ] MyDeque.Resize4
+[       OK ] MyDeque.Resize4 (0 ms)
+[ RUN      ] MyDeque.Clear1
+[       OK ] MyDeque.Clear1 (0 ms)
+[ RUN      ] MyDeque.Clear2
+[       OK ] MyDeque.Clear2 (0 ms)
+[ RUN      ] MyDeque.Clear3
+[       OK ] MyDeque.Clear3 (0 ms)
+[ RUN      ] MyDeque.Swap1
+[       OK ] MyDeque.Swap1 (0 ms)
+[ RUN      ] MyDeque.Swap2
+[       OK ] MyDeque.Swap2 (0 ms)
+[----------] 65 tests from MyDeque (1 ms total)
+
+[----------] 27 tests from Iterator
+[ RUN      ] Iterator.Constructor1
+[       OK ] Iterator.Constructor1 (0 ms)
+[ RUN      ] Iterator.Constructor2
+[       OK ] Iterator.Constructor2 (0 ms)
+[ RUN      ] Iterator.Constructor3
+[       OK ] Iterator.Constructor3 (0 ms)
+[ RUN      ] Iterator.Dereference1
+[       OK ] Iterator.Dereference1 (0 ms)
+[ RUN      ] Iterator.Dereference2
+[       OK ] Iterator.Dereference2 (0 ms)
+[ RUN      ] Iterator.Dereference3
+[       OK ] Iterator.Dereference3 (0 ms)
+[ RUN      ] Iterator.Dereference4
+[       OK ] Iterator.Dereference4 (0 ms)
+[ RUN      ] Iterator.Equality1
+[       OK ] Iterator.Equality1 (0 ms)
+[ RUN      ] Iterator.Equality2
+[       OK ] Iterator.Equality2 (0 ms)
+[ RUN      ] Iterator.Equality3
+[       OK ] Iterator.Equality3 (0 ms)
+[ RUN      ] Iterator.Increment1
+[       OK ] Iterator.Increment1 (0 ms)
+[ RUN      ] Iterator.Increment2
+[       OK ] Iterator.Increment2 (0 ms)
+[ RUN      ] Iterator.Increment3
+[       OK ] Iterator.Increment3 (0 ms)
+[ RUN      ] Iterator.Decrement1
+[       OK ] Iterator.Decrement1 (0 ms)
+[ RUN      ] Iterator.Decrement2
+[       OK ] Iterator.Decrement2 (0 ms)
+[ RUN      ] Iterator.Decrement3
+[       OK ] Iterator.Decrement3 (0 ms)
+[ RUN      ] Iterator.PlusEquals1
+[       OK ] Iterator.PlusEquals1 (0 ms)
+[ RUN      ] Iterator.PlusEquals2
+[       OK ] Iterator.PlusEquals2 (0 ms)
+[ RUN      ] Iterator.PlusEquals3
+[       OK ] Iterator.PlusEquals3 (0 ms)
+[ RUN      ] Iterator.PlusEquals4
+[       OK ] Iterator.PlusEquals4 (0 ms)
+[ RUN      ] Iterator.MinusEquals1
+[       OK ] Iterator.MinusEquals1 (0 ms)
+[ RUN      ] Iterator.MinusEquals2
+[       OK ] Iterator.MinusEquals2 (0 ms)
+[ RUN      ] Iterator.MinusEquals3
+[       OK ] Iterator.MinusEquals3 (0 ms)
+[ RUN      ] Iterator.MinusEquals4
+[       OK ] Iterator.MinusEquals4 (0 ms)
+[ RUN      ] Iterator.valid1
+[       OK ] Iterator.valid1 (0 ms)
+[ RUN      ] Iterator.valid2
+[       OK ] Iterator.valid2 (0 ms)
+[ RUN      ] Iterator.valid3
+[       OK ] Iterator.valid3 (0 ms)
+[----------] 27 tests from Iterator (0 ms total)
+
+[----------] 26 tests from ConstIterator
+[ RUN      ] ConstIterator.Constructor1
+[       OK ] ConstIterator.Constructor1 (0 ms)
+[ RUN      ] ConstIterator.Constructor2
+[       OK ] ConstIterator.Constructor2 (0 ms)
+[ RUN      ] ConstIterator.Constructor3
+[       OK ] ConstIterator.Constructor3 (0 ms)
+[ RUN      ] ConstIterator.Dereference1
+[       OK ] ConstIterator.Dereference1 (0 ms)
+[ RUN      ] ConstIterator.Dereference2
+[       OK ] ConstIterator.Dereference2 (0 ms)
+[ RUN      ] ConstIterator.Dereference3
+[       OK ] ConstIterator.Dereference3 (0 ms)
+[ RUN      ] ConstIterator.Equality1
+[       OK ] ConstIterator.Equality1 (0 ms)
+[ RUN      ] ConstIterator.Equality2
+[       OK ] ConstIterator.Equality2 (0 ms)
+[ RUN      ] ConstIterator.Equality3
+[       OK ] ConstIterator.Equality3 (0 ms)
+[ RUN      ] ConstIterator.Increment1
+[       OK ] ConstIterator.Increment1 (0 ms)
+[ RUN      ] ConstIterator.Increment2
+[       OK ] ConstIterator.Increment2 (0 ms)
+[ RUN      ] ConstIterator.Increment3
+[       OK ] ConstIterator.Increment3 (0 ms)
+[ RUN      ] ConstIterator.Decrement1
+[       OK ] ConstIterator.Decrement1 (0 ms)
+[ RUN      ] ConstIterator.Decrement2
+[       OK ] ConstIterator.Decrement2 (0 ms)
+[ RUN      ] ConstIterator.Decrement3
+[       OK ] ConstIterator.Decrement3 (0 ms)
+[ RUN      ] ConstIterator.PlusEquals1
+[       OK ] ConstIterator.PlusEquals1 (0 ms)
+[ RUN      ] ConstIterator.PlusEquals2
+[       OK ] ConstIterator.PlusEquals2 (0 ms)
+[ RUN      ] ConstIterator.PlusEquals3
+[       OK ] ConstIterator.PlusEquals3 (0 ms)
+[ RUN      ] ConstIterator.PlusEquals4
+[       OK ] ConstIterator.PlusEquals4 (0 ms)
+[ RUN      ] ConstIterator.MinusEquals1
+[       OK ] ConstIterator.MinusEquals1 (0 ms)
+[ RUN      ] ConstIterator.MinusEquals2
+[       OK ] ConstIterator.MinusEquals2 (0 ms)
+[ RUN      ] ConstIterator.MinusEquals3
+[       OK ] ConstIterator.MinusEquals3 (0 ms)
+[ RUN      ] ConstIterator.MinusEquals4
+[       OK ] ConstIterator.MinusEquals4 (0 ms)
+[ RUN      ] ConstIterator.valid1
+[       OK ] ConstIterator.valid1 (0 ms)
+[ RUN      ] ConstIterator.valid2
+[       OK ] ConstIterator.valid2 (0 ms)
+[ RUN      ] ConstIterator.valid3
+[       OK ] ConstIterator.valid3 (0 ms)
+[----------] 26 tests from ConstIterator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 118 tests from 3 test cases ran. (1 ms total)
+[  PASSED  ] 118 tests.
