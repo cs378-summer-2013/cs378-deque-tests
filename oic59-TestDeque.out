@@ -1,0 +1,127 @@
+Running main() from gtest_main.cc
+[==========] Running 38 tests from 15 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from DequeDefaultConstructorTest
+[ RUN      ] DequeDefaultConstructorTest.init
+[       OK ] DequeDefaultConstructorTest.init (26 ms)
+[ RUN      ] DequeDefaultConstructorTest.test01
+[       OK ] DequeDefaultConstructorTest.test01 (4 ms)
+[----------] 2 tests from DequeDefaultConstructorTest (40 ms total)
+
+[----------] 1 test from DequeEqualsTest
+[ RUN      ] DequeEqualsTest.resize10_1
+[       OK ] DequeEqualsTest.resize10_1 (19 ms)
+[----------] 1 test from DequeEqualsTest (19 ms total)
+
+[----------] 1 test from DequeLessTest
+[ RUN      ] DequeLessTest.less_01
+[       OK ] DequeLessTest.less_01 (15 ms)
+[----------] 1 test from DequeLessTest (15 ms total)
+
+[----------] 7 tests from DequeInsertTest
+[ RUN      ] DequeInsertTest.insert_01
+[       OK ] DequeInsertTest.insert_01 (11 ms)
+[ RUN      ] DequeInsertTest.insert_02
+[       OK ] DequeInsertTest.insert_02 (11 ms)
+[ RUN      ] DequeInsertTest.insert_03
+[       OK ] DequeInsertTest.insert_03 (15 ms)
+[ RUN      ] DequeInsertTest.insert_04
+[       OK ] DequeInsertTest.insert_04 (5 ms)
+[ RUN      ] DequeInsertTest.insert_05
+[       OK ] DequeInsertTest.insert_05 (6 ms)
+[ RUN      ] DequeInsertTest.insert_06
+[       OK ] DequeInsertTest.insert_06 (8 ms)
+[ RUN      ] DequeInsertTest.insert_07
+[       OK ] DequeInsertTest.insert_07 (6 ms)
+[----------] 7 tests from DequeInsertTest (63 ms total)
+
+[----------] 5 tests from DequeIntTest
+[ RUN      ] DequeIntTest.test_size
+[       OK ] DequeIntTest.test_size (29 ms)
+[ RUN      ] DequeIntTest.resize01
+[       OK ] DequeIntTest.resize01 (2 ms)
+[ RUN      ] DequeIntTest.resize02
+[       OK ] DequeIntTest.resize02 (2 ms)
+[ RUN      ] DequeIntTest.resize03
+[       OK ] DequeIntTest.resize03 (2 ms)
+[ RUN      ] DequeIntTest.resize04
+[       OK ] DequeIntTest.resize04 (3 ms)
+[----------] 5 tests from DequeIntTest (39 ms total)
+
+[----------] 3 tests from DequePushBackTest
+[ RUN      ] DequePushBackTest.push_back_01
+[       OK ] DequePushBackTest.push_back_01 (4 ms)
+[ RUN      ] DequePushBackTest.push_back_02
+[       OK ] DequePushBackTest.push_back_02 (2 ms)
+[ RUN      ] DequePushBackTest.push_back_03
+[       OK ] DequePushBackTest.push_back_03 (3 ms)
+[----------] 3 tests from DequePushBackTest (11 ms total)
+
+[----------] 3 tests from DequePushFrontTest
+[ RUN      ] DequePushFrontTest.push_front_01
+[       OK ] DequePushFrontTest.push_front_01 (6 ms)
+[ RUN      ] DequePushFrontTest.push_front_02
+[       OK ] DequePushFrontTest.push_front_02 (3 ms)
+[ RUN      ] DequePushFrontTest.push_front_03
+[       OK ] DequePushFrontTest.push_front_03 (3 ms)
+[----------] 3 tests from DequePushFrontTest (12 ms total)
+
+[----------] 3 tests from DequePopBackTest
+[ RUN      ] DequePopBackTest.pop_back_01
+[       OK ] DequePopBackTest.pop_back_01 (6 ms)
+[ RUN      ] DequePopBackTest.pop_back_02
+[       OK ] DequePopBackTest.pop_back_02 (4 ms)
+[ RUN      ] DequePopBackTest.pop_back_03
+[       OK ] DequePopBackTest.pop_back_03 (4 ms)
+[----------] 3 tests from DequePopBackTest (14 ms total)
+
+[----------] 3 tests from DequePopFrontTest
+[ RUN      ] DequePopFrontTest.pop_front_01
+[       OK ] DequePopFrontTest.pop_front_01 (6 ms)
+[ RUN      ] DequePopFrontTest.pop_front_02
+[       OK ] DequePopFrontTest.pop_front_02 (3 ms)
+[ RUN      ] DequePopFrontTest.pop_front_03
+[       OK ] DequePopFrontTest.pop_front_03 (3 ms)
+[----------] 3 tests from DequePopFrontTest (14 ms total)
+
+[----------] 3 tests from DequeResizeTest
+[ RUN      ] DequeResizeTest.resize_01
+[       OK ] DequeResizeTest.resize_01 (4 ms)
+[ RUN      ] DequeResizeTest.resize_02
+[       OK ] DequeResizeTest.resize_02 (5 ms)
+[ RUN      ] DequeResizeTest.resize_03
+[       OK ] DequeResizeTest.resize_03 (4 ms)
+[----------] 3 tests from DequeResizeTest (13 ms total)
+
+[----------] 3 tests from DequeIteratorTest
+[ RUN      ] DequeIteratorTest.iterator_01
+[       OK ] DequeIteratorTest.iterator_01 (5 ms)
+[ RUN      ] DequeIteratorTest.iterator_02
+[       OK ] DequeIteratorTest.iterator_02 (2 ms)
+[ RUN      ] DequeIteratorTest.iterator_03
+[       OK ] DequeIteratorTest.iterator_03 (7 ms)
+[----------] 3 tests from DequeIteratorTest (17 ms total)
+
+[----------] 1 test from TypeTest/0, where TypeParam = MyDeque<int, std::allocator<int> >
+[ RUN      ] TypeTest/0.TemplateTypeEquals
+[       OK ] TypeTest/0.TemplateTypeEquals (3 ms)
+[----------] 1 test from TypeTest/0 (4 ms total)
+
+[----------] 1 test from TypeTest/1, where TypeParam = std::deque<int, std::allocator<int> >
+[ RUN      ] TypeTest/1.TemplateTypeEquals
+[       OK ] TypeTest/1.TemplateTypeEquals (3 ms)
+[----------] 1 test from TypeTest/1 (3 ms total)
+
+[----------] 1 test from CopyConstructorTest/0, where TypeParam = MyDeque<int, std::allocator<int> >
+[ RUN      ] CopyConstructorTest/0.Size5_Block10
+[       OK ] CopyConstructorTest/0.Size5_Block10 (3 ms)
+[----------] 1 test from CopyConstructorTest/0 (3 ms total)
+
+[----------] 1 test from CopyConstructorTest/1, where TypeParam = std::deque<int, std::allocator<int> >
+[ RUN      ] CopyConstructorTest/1.Size5_Block10
+[       OK ] CopyConstructorTest/1.Size5_Block10 (4 ms)
+[----------] 1 test from CopyConstructorTest/1 (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 38 tests from 15 test cases ran. (300 ms total)
+[  PASSED  ] 38 tests.
