@@ -1,0 +1,174 @@
+ejenioc@mounds:/v/filer4b/v38q001/ejenioc/cs378-deque$ TestDeque 
+Running main() from gtest_main.cc
+[==========] Running 70 tests from 9 test cases.
+[----------] Global test environment set-up.
+[----------] 6 tests from DequeConstructor
+[ RUN      ] DequeConstructor.Constructor_one_arg_1
+[       OK ] DequeConstructor.Constructor_one_arg_1 (0 ms)
+[ RUN      ] DequeConstructor.Constructor_one_arg_2
+[       OK ] DequeConstructor.Constructor_one_arg_2 (0 ms)
+[ RUN      ] DequeConstructor.Constructor_one_arg_3
+[       OK ] DequeConstructor.Constructor_one_arg_3 (0 ms)
+[ RUN      ] DequeConstructor.Constructor_two_arg_1
+[       OK ] DequeConstructor.Constructor_two_arg_1 (0 ms)
+[ RUN      ] DequeConstructor.Constructor_two_arg_2
+[       OK ] DequeConstructor.Constructor_two_arg_2 (0 ms)
+[ RUN      ] DequeConstructor.Constructor_two_arg_3
+[       OK ] DequeConstructor.Constructor_two_arg_3 (0 ms)
+[----------] 6 tests from DequeConstructor (0 ms total)
+
+[----------] 1 test from DequeOps
+[ RUN      ] DequeOps.access_operator_1
+[       OK ] DequeOps.access_operator_1 (0 ms)
+[----------] 1 test from DequeOps (0 ms total)
+
+[----------] 11 tests from DequeReferences
+[ RUN      ] DequeReferences.access_operator_2
+[       OK ] DequeReferences.access_operator_2 (0 ms)
+[ RUN      ] DequeReferences.access_operator_3
+[       OK ] DequeReferences.access_operator_3 (0 ms)
+[ RUN      ] DequeReferences.at_operator_1
+[       OK ] DequeReferences.at_operator_1 (0 ms)
+[ RUN      ] DequeReferences.at_operator_2
+[       OK ] DequeReferences.at_operator_2 (0 ms)
+[ RUN      ] DequeReferences.at_operator_3
+[       OK ] DequeReferences.at_operator_3 (0 ms)
+[ RUN      ] DequeReferences.back_1
+[       OK ] DequeReferences.back_1 (0 ms)
+[ RUN      ] DequeReferences.back_2
+[       OK ] DequeReferences.back_2 (0 ms)
+[ RUN      ] DequeReferences.back_3
+[       OK ] DequeReferences.back_3 (0 ms)
+[ RUN      ] DequeReferences.front_1
+[       OK ] DequeReferences.front_1 (0 ms)
+[ RUN      ] DequeReferences.front_2
+[       OK ] DequeReferences.front_2 (0 ms)
+[ RUN      ] DequeReferences.front_3
+[       OK ] DequeReferences.front_3 (0 ms)
+[----------] 11 tests from DequeReferences (0 ms total)
+
+[----------] 9 tests from DequeIndex
+[ RUN      ] DequeIndex.get_last_index_1
+[       OK ] DequeIndex.get_last_index_1 (0 ms)
+[ RUN      ] DequeIndex.get_last_index_2
+[       OK ] DequeIndex.get_last_index_2 (0 ms)
+[ RUN      ] DequeIndex.get_last_index_3
+[       OK ] DequeIndex.get_last_index_3 (0 ms)
+[ RUN      ] DequeIndex.get_pointer_from_index_1
+[       OK ] DequeIndex.get_pointer_from_index_1 (0 ms)
+[ RUN      ] DequeIndex.get_pointer_from_index_2
+[       OK ] DequeIndex.get_pointer_from_index_2 (0 ms)
+[ RUN      ] DequeIndex.get_pointer_from_index_3
+[       OK ] DequeIndex.get_pointer_from_index_3 (0 ms)
+[ RUN      ] DequeIndex.get_index_1
+[       OK ] DequeIndex.get_index_1 (0 ms)
+[ RUN      ] DequeIndex.get_index_2
+[       OK ] DequeIndex.get_index_2 (0 ms)
+[ RUN      ] DequeIndex.get_index_3
+[       OK ] DequeIndex.get_index_3 (0 ms)
+[----------] 9 tests from DequeIndex (0 ms total)
+
+[----------] 6 tests from DequeSizing
+[ RUN      ] DequeSizing.capacity_1
+[       OK ] DequeSizing.capacity_1 (0 ms)
+[ RUN      ] DequeSizing.capacity_2
+[       OK ] DequeSizing.capacity_2 (0 ms)
+[ RUN      ] DequeSizing.capacity_3
+[       OK ] DequeSizing.capacity_3 (0 ms)
+[ RUN      ] DequeSizing.size_1
+[       OK ] DequeSizing.size_1 (0 ms)
+[ RUN      ] DequeSizing.size_2
+[       OK ] DequeSizing.size_2 (0 ms)
+[ RUN      ] DequeSizing.size_3
+[       OK ] DequeSizing.size_3 (0 ms)
+[----------] 6 tests from DequeSizing (0 ms total)
+
+[----------] 8 tests from DequePushPop
+[ RUN      ] DequePushPop.push_back_1
+[       OK ] DequePushPop.push_back_1 (0 ms)
+[ RUN      ] DequePushPop.push_back_2
+[       OK ] DequePushPop.push_back_2 (0 ms)
+[ RUN      ] DequePushPop.push_back_3
+[       OK ] DequePushPop.push_back_3 (0 ms)
+[ RUN      ] DequePushPop.push_front_2
+[       OK ] DequePushPop.push_front_2 (0 ms)
+[ RUN      ] DequePushPop.push_front_3
+[       OK ] DequePushPop.push_front_3 (0 ms)
+[ RUN      ] DequePushPop.pop_front_1
+[       OK ] DequePushPop.pop_front_1 (0 ms)
+[ RUN      ] DequePushPop.pop_front_2
+[       OK ] DequePushPop.pop_front_2 (0 ms)
+[ RUN      ] DequePushPop.pop_front_3
+[       OK ] DequePushPop.pop_front_3 (0 ms)
+[----------] 8 tests from DequePushPop (0 ms total)
+
+[----------] 9 tests from DequeResize
+[ RUN      ] DequeResize.resize_less_1
+[       OK ] DequeResize.resize_less_1 (0 ms)
+[ RUN      ] DequeResize.resize_less_2
+[       OK ] DequeResize.resize_less_2 (0 ms)
+[ RUN      ] DequeResize.resize_less_3
+[       OK ] DequeResize.resize_less_3 (0 ms)
+[ RUN      ] DequeResize.resize_greater_1
+[       OK ] DequeResize.resize_greater_1 (0 ms)
+[ RUN      ] DequeResize.resize_greater_2
+[       OK ] DequeResize.resize_greater_2 (0 ms)
+[ RUN      ] DequeResize.resize_greater_3
+[       OK ] DequeResize.resize_greater_3 (0 ms)
+[ RUN      ] DequeResize.resize_same_1
+[       OK ] DequeResize.resize_same_1 (0 ms)
+[ RUN      ] DequeResize.resize_same_2
+[       OK ] DequeResize.resize_same_2 (0 ms)
+[ RUN      ] DequeResize.resize_same_3
+[       OK ] DequeResize.resize_same_3 (0 ms)
+[----------] 9 tests from DequeResize (0 ms total)
+
+[----------] 12 tests from Iterators
+[ RUN      ] Iterators.begin_iterator_1
+[       OK ] Iterators.begin_iterator_1 (1 ms)
+[ RUN      ] Iterators.begin_iterator_2
+[       OK ] Iterators.begin_iterator_2 (0 ms)
+[ RUN      ] Iterators.begin_iterator_3
+[       OK ] Iterators.begin_iterator_3 (0 ms)
+[ RUN      ] Iterators.iterator_1
+[       OK ] Iterators.iterator_1 (0 ms)
+[ RUN      ] Iterators.iterator_2
+[       OK ] Iterators.iterator_2 (0 ms)
+[ RUN      ] Iterators.iterator_3
+[       OK ] Iterators.iterator_3 (0 ms)
+[ RUN      ] Iterators.iterator_equality_1
+[       OK ] Iterators.iterator_equality_1 (0 ms)
+[ RUN      ] Iterators.iterator_equality_2
+[       OK ] Iterators.iterator_equality_2 (0 ms)
+[ RUN      ] Iterators.iterator_equality_3
+[       OK ] Iterators.iterator_equality_3 (0 ms)
+[ RUN      ] Iterators.iterator_reverse_1
+[       OK ] Iterators.iterator_reverse_1 (0 ms)
+[ RUN      ] Iterators.iterator_reverse_2
+[       OK ] Iterators.iterator_reverse_2 (0 ms)
+[ RUN      ] Iterators.iterator_reverse_3
+[       OK ] Iterators.iterator_reverse_3 (0 ms)
+[----------] 12 tests from Iterators (1 ms total)
+
+[----------] 8 tests from ComboTests
+[ RUN      ] ComboTests.lots_of_push_backs
+[       OK ] ComboTests.lots_of_push_backs (0 ms)
+[ RUN      ] ComboTests.lots_of_push_fronts
+[       OK ] ComboTests.lots_of_push_fronts (0 ms)
+[ RUN      ] ComboTests.interleaved_front_back
+[       OK ] ComboTests.interleaved_front_back (0 ms)
+[ RUN      ] ComboTests.push_big_then_pop
+[       OK ] ComboTests.push_big_then_pop (0 ms)
+[ RUN      ] ComboTests.yo_yo
+[       OK ] ComboTests.yo_yo (0 ms)
+[ RUN      ] ComboTests.push_pop_alternate
+[       OK ] ComboTests.push_pop_alternate (0 ms)
+[ RUN      ] ComboTests.alphabet_1
+[       OK ] ComboTests.alphabet_1 (0 ms)
+[ RUN      ] ComboTests.alphabet_2
+[       OK ] ComboTests.alphabet_2 (0 ms)
+[----------] 8 tests from ComboTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 70 tests from 9 test cases ran. (1 ms total)
+[  PASSED  ] 70 tests.
