@@ -1,0 +1,118 @@
+[==========] Running 55 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 55 tests from MyDequeTest
+[ RUN      ] MyDequeTest.Constructor1
+[       OK ] MyDequeTest.Constructor1 (27 ms)
+[ RUN      ] MyDequeTest.Constructor2
+[       OK ] MyDequeTest.Constructor2 (19 ms)
+[ RUN      ] MyDequeTest.Constructor3
+[       OK ] MyDequeTest.Constructor3 (8 ms)
+[ RUN      ] MyDequeTest.Constructor4
+[       OK ] MyDequeTest.Constructor4 (9 ms)
+[ RUN      ] MyDequeTest.Constructor5
+[       OK ] MyDequeTest.Constructor5 (47 ms)
+[ RUN      ] MyDequeTest.Destructor1
+[       OK ] MyDequeTest.Destructor1 (3 ms)
+[ RUN      ] MyDequeTest.Destructor2
+[       OK ] MyDequeTest.Destructor2 (3 ms)
+[ RUN      ] MyDequeTest.Destructor3
+[       OK ] MyDequeTest.Destructor3 (3 ms)
+[ RUN      ] MyDequeTest.Destructor4
+[       OK ] MyDequeTest.Destructor4 (3 ms)
+[ RUN      ] MyDequeTest.begin1
+[       OK ] MyDequeTest.begin1 (22 ms)
+[ RUN      ] MyDequeTest.begin2
+[       OK ] MyDequeTest.begin2 (6 ms)
+[ RUN      ] MyDequeTest.begin3
+[       OK ] MyDequeTest.begin3 (51 ms)
+[ RUN      ] MyDequeTest.end1
+[       OK ] MyDequeTest.end1 (6 ms)
+[ RUN      ] MyDequeTest.end2
+[       OK ] MyDequeTest.end2 (10 ms)
+[ RUN      ] MyDequeTest.end3
+[       OK ] MyDequeTest.end3 (348 ms)
+[ RUN      ] MyDequeTest.size1
+[       OK ] MyDequeTest.size1 (4 ms)
+[ RUN      ] MyDequeTest.size2
+[       OK ] MyDequeTest.size2 (4 ms)
+[ RUN      ] MyDequeTest.size3
+[       OK ] MyDequeTest.size3 (4 ms)
+[ RUN      ] MyDequeTest.size4
+[       OK ] MyDequeTest.size4 (7 ms)
+[ RUN      ] MyDequeTest.size5
+[       OK ] MyDequeTest.size5 (4 ms)
+[ RUN      ] MyDequeTest.resize1
+[       OK ] MyDequeTest.resize1 (6 ms)
+[ RUN      ] MyDequeTest.resize2
+[       OK ] MyDequeTest.resize2 (6 ms)
+[ RUN      ] MyDequeTest.resize3
+[       OK ] MyDequeTest.resize3 (8 ms)
+[ RUN      ] MyDequeTest.empty1
+[       OK ] MyDequeTest.empty1 (5 ms)
+[ RUN      ] MyDequeTest.empty2
+[       OK ] MyDequeTest.empty2 (5 ms)
+[ RUN      ] MyDequeTest.empty3
+[       OK ] MyDequeTest.empty3 (5 ms)
+[ RUN      ] MyDequeTest.index1
+[       OK ] MyDequeTest.index1 (10 ms)
+[ RUN      ] MyDequeTest.index2
+[       OK ] MyDequeTest.index2 (8 ms)
+[ RUN      ] MyDequeTest.index3
+[       OK ] MyDequeTest.index3 (6 ms)
+[ RUN      ] MyDequeTest.at1
+[       OK ] MyDequeTest.at1 (3 ms)
+[ RUN      ] MyDequeTest.at2
+[       OK ] MyDequeTest.at2 (4 ms)
+[ RUN      ] MyDequeTest.at3
+[       OK ] MyDequeTest.at3 (5 ms)
+[ RUN      ] MyDequeTest.front1
+[       OK ] MyDequeTest.front1 (7 ms)
+[ RUN      ] MyDequeTest.front2
+[       OK ] MyDequeTest.front2 (4 ms)
+[ RUN      ] MyDequeTest.front3
+[       OK ] MyDequeTest.front3 (5 ms)
+[ RUN      ] MyDequeTest.back1
+[       OK ] MyDequeTest.back1 (6 ms)
+[ RUN      ] MyDequeTest.back2
+[       OK ] MyDequeTest.back2 (4 ms)
+[ RUN      ] MyDequeTest.back3
+[       OK ] MyDequeTest.back3 (4 ms)
+[ RUN      ] MyDequeTest.push_back1
+[       OK ] MyDequeTest.push_back1 (5 ms)
+[ RUN      ] MyDequeTest.push_back2
+[       OK ] MyDequeTest.push_back2 (6 ms)
+[ RUN      ] MyDequeTest.push_back3
+[       OK ] MyDequeTest.push_back3 (4 ms)
+[ RUN      ] MyDequeTest.push_front1
+[       OK ] MyDequeTest.push_front1 (6 ms)
+[ RUN      ] MyDequeTest.push_front2
+[       OK ] MyDequeTest.push_front2 (7 ms)
+[ RUN      ] MyDequeTest.push_front3
+[       OK ] MyDequeTest.push_front3 (4 ms)
+[ RUN      ] MyDequeTest.insert1
+[       OK ] MyDequeTest.insert1 (16 ms)
+[ RUN      ] MyDequeTest.insert2
+[       OK ] MyDequeTest.insert2 (5 ms)
+[ RUN      ] MyDequeTest.insert3
+[       OK ] MyDequeTest.insert3 (6 ms)
+[ RUN      ] MyDequeTest.erase1
+[       OK ] MyDequeTest.erase1 (11 ms)
+[ RUN      ] MyDequeTest.erase2
+[       OK ] MyDequeTest.erase2 (5 ms)
+[ RUN      ] MyDequeTest.erase3
+[       OK ] MyDequeTest.erase3 (8 ms)
+[ RUN      ] MyDequeTest.swap1
+[       OK ] MyDequeTest.swap1 (7 ms)
+[ RUN      ] MyDequeTest.swap2
+[       OK ] MyDequeTest.swap2 (11 ms)
+[ RUN      ] MyDequeTest.clear1
+[       OK ] MyDequeTest.clear1 (6 ms)
+[ RUN      ] MyDequeTest.clear2
+[       OK ] MyDequeTest.clear2 (5 ms)
+[ RUN      ] MyDequeTest.clear3
+[       OK ] MyDequeTest.clear3 (4 ms)
+[----------] 55 tests from MyDequeTest (833 ms total)
+
+[----------] Global test environment tear-down
+[==========] 55 tests from 1 test case ran. (882 ms total)
+[  PASSED  ] 55 tests.
