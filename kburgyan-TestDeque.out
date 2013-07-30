@@ -3,7 +3,7 @@ Running main() from gtest_main.cc
 [----------] Global test environment set-up.
 [----------] 104 tests from MyDequeTest
 [ RUN      ] MyDequeTest.IteratorConstructorTest1
-[       OK ] MyDequeTest.IteratorConstructorTest1 (59 ms)
+[       OK ] MyDequeTest.IteratorConstructorTest1 (60 ms)
 [ RUN      ] MyDequeTest.IteratorConstructorTest2
 [       OK ] MyDequeTest.IteratorConstructorTest2 (4 ms)
 [ RUN      ] MyDequeTest.IteratorConstructorTest3
@@ -11,11 +11,11 @@ Running main() from gtest_main.cc
 [ RUN      ] MyDequeTest.DequeEqualTest1
 [       OK ] MyDequeTest.DequeEqualTest1 (10 ms)
 [ RUN      ] MyDequeTest.DequeEqualTest2
-[       OK ] MyDequeTest.DequeEqualTest2 (5 ms)
+[       OK ] MyDequeTest.DequeEqualTest2 (4 ms)
 [ RUN      ] MyDequeTest.DequeEqualTest3
-[       OK ] MyDequeTest.DequeEqualTest3 (3 ms)
+[       OK ] MyDequeTest.DequeEqualTest3 (4 ms)
 [ RUN      ] MyDequeTest.LessThanTest1
-[       OK ] MyDequeTest.LessThanTest1 (13 ms)
+[       OK ] MyDequeTest.LessThanTest1 (12 ms)
 [ RUN      ] MyDequeTest.LessThanTest2
 [       OK ] MyDequeTest.LessThanTest2 (7 ms)
 [ RUN      ] MyDequeTest.LessThanTest3
@@ -23,7 +23,7 @@ Running main() from gtest_main.cc
 [ RUN      ] MyDequeTest.MinusEqualTest1
 [       OK ] MyDequeTest.MinusEqualTest1 (4 ms)
 [ RUN      ] MyDequeTest.MinusEqualTest2
-[       OK ] MyDequeTest.MinusEqualTest2 (4 ms)
+[       OK ] MyDequeTest.MinusEqualTest2 (3 ms)
 [ RUN      ] MyDequeTest.MinusEqualTest3
 [       OK ] MyDequeTest.MinusEqualTest3 (5 ms)
 [ RUN      ] MyDequeTest.DefaultConstructorTest1
@@ -45,7 +45,7 @@ Running main() from gtest_main.cc
 [ RUN      ] MyDequeTest.CopyConstructorTest1
 [       OK ] MyDequeTest.CopyConstructorTest1 (14 ms)
 [ RUN      ] MyDequeTest.CopyConstructorTest2
-[       OK ] MyDequeTest.CopyConstructorTest2 (12 ms)
+[       OK ] MyDequeTest.CopyConstructorTest2 (11 ms)
 [ RUN      ] MyDequeTest.CopyConstructorTest3
 [       OK ] MyDequeTest.CopyConstructorTest3 (17 ms)
 [ RUN      ] MyDequeTest.CopyAssignTest1
@@ -59,27 +59,27 @@ Running main() from gtest_main.cc
 [ RUN      ] MyDequeTest.SubscriptTest2
 [       OK ] MyDequeTest.SubscriptTest2 (6 ms)
 [ RUN      ] MyDequeTest.SubscriptTest3
-[       OK ] MyDequeTest.SubscriptTest3 (48 ms)
+[       OK ] MyDequeTest.SubscriptTest3 (47 ms)
 [ RUN      ] MyDequeTest.ConstSubscriptTest1
 [       OK ] MyDequeTest.ConstSubscriptTest1 (6 ms)
 [ RUN      ] MyDequeTest.ConstSubscriptTest2
 [       OK ] MyDequeTest.ConstSubscriptTest2 (6 ms)
 [ RUN      ] MyDequeTest.ConstSubscriptTest3
-[       OK ] MyDequeTest.ConstSubscriptTest3 (6 ms)
+[       OK ] MyDequeTest.ConstSubscriptTest3 (7 ms)
 [ RUN      ] MyDequeTest.AtTest1
-[       OK ] MyDequeTest.AtTest1 (6 ms)
+[       OK ] MyDequeTest.AtTest1 (5 ms)
 [ RUN      ] MyDequeTest.AtTest2
-[       OK ] MyDequeTest.AtTest2 (6 ms)
+[       OK ] MyDequeTest.AtTest2 (5 ms)
 [ RUN      ] MyDequeTest.AtTest3
-[       OK ] MyDequeTest.AtTest3 (6 ms)
+[       OK ] MyDequeTest.AtTest3 (5 ms)
 [ RUN      ] MyDequeTest.ConstAtTest1
-[       OK ] MyDequeTest.ConstAtTest1 (6 ms)
+[       OK ] MyDequeTest.ConstAtTest1 (5 ms)
 [ RUN      ] MyDequeTest.ConstAtTest2
 [       OK ] MyDequeTest.ConstAtTest2 (6 ms)
 [ RUN      ] MyDequeTest.ConstAtTest3
-[       OK ] MyDequeTest.ConstAtTest3 (5 ms)
+[       OK ] MyDequeTest.ConstAtTest3 (6 ms)
 [ RUN      ] MyDequeTest.BackTest1
-[       OK ] MyDequeTest.BackTest1 (6 ms)
+[       OK ] MyDequeTest.BackTest1 (7 ms)
 [ RUN      ] MyDequeTest.BackTest2
 [       OK ] MyDequeTest.BackTest2 (6 ms)
 [ RUN      ] MyDequeTest.BackTest3
@@ -109,9 +109,9 @@ Running main() from gtest_main.cc
 [ RUN      ] MyDequeTest.ClearTest1
 [       OK ] MyDequeTest.ClearTest1 (5 ms)
 [ RUN      ] MyDequeTest.ClearTest2
-[       OK ] MyDequeTest.ClearTest2 (5 ms)
+[       OK ] MyDequeTest.ClearTest2 (4 ms)
 [ RUN      ] MyDequeTest.ClearTest3
-[       OK ] MyDequeTest.ClearTest3 (5 ms)
+[       OK ] MyDequeTest.ClearTest3 (4 ms)
 [ RUN      ] MyDequeTest.ClearTest4
 [       OK ] MyDequeTest.ClearTest4 (5 ms)
 [ RUN      ] MyDequeTest.EndTest1
@@ -119,21 +119,21 @@ Running main() from gtest_main.cc
 [ RUN      ] MyDequeTest.EndTest2
 [       OK ] MyDequeTest.EndTest2 (5 ms)
 [ RUN      ] MyDequeTest.EndTest3
-[       OK ] MyDequeTest.EndTest3 (7 ms)
+[       OK ] MyDequeTest.EndTest3 (6 ms)
 [ RUN      ] MyDequeTest.EndTest4
 [       OK ] MyDequeTest.EndTest4 (6 ms)
 [ RUN      ] MyDequeTest.ConstEndTest1
 [       OK ] MyDequeTest.ConstEndTest1 (6 ms)
 [ RUN      ] MyDequeTest.ConstEndTest2
-[       OK ] MyDequeTest.ConstEndTest2 (6 ms)
+[       OK ] MyDequeTest.ConstEndTest2 (5 ms)
 [ RUN      ] MyDequeTest.ConstEndTest3
 [       OK ] MyDequeTest.ConstEndTest3 (6 ms)
 [ RUN      ] MyDequeTest.ConstEndTest4
 [       OK ] MyDequeTest.ConstEndTest4 (6 ms)
 [ RUN      ] MyDequeTest.PrePlusPlusTest1
-[       OK ] MyDequeTest.PrePlusPlusTest1 (5 ms)
+[       OK ] MyDequeTest.PrePlusPlusTest1 (4 ms)
 [ RUN      ] MyDequeTest.PrePlusPlusTest2
-[       OK ] MyDequeTest.PrePlusPlusTest2 (5 ms)
+[       OK ] MyDequeTest.PrePlusPlusTest2 (6 ms)
 [ RUN      ] MyDequeTest.PostPlusPlusTest1
 [       OK ] MyDequeTest.PostPlusPlusTest1 (6 ms)
 [ RUN      ] MyDequeTest.PostPlusPlusTest2
@@ -153,63 +153,63 @@ Running main() from gtest_main.cc
 [ RUN      ] MyDequeTest.ConstFrontTest1
 [       OK ] MyDequeTest.ConstFrontTest1 (6 ms)
 [ RUN      ] MyDequeTest.ConstFrontTest2
-[       OK ] MyDequeTest.ConstFrontTest2 (7 ms)
+[       OK ] MyDequeTest.ConstFrontTest2 (6 ms)
 [ RUN      ] MyDequeTest.ConstFrontTest3
-[       OK ] MyDequeTest.ConstFrontTest3 (5 ms)
+[       OK ] MyDequeTest.ConstFrontTest3 (6 ms)
 [ RUN      ] MyDequeTest.InsertTest1
-[       OK ] MyDequeTest.InsertTest1 (7 ms)
+[       OK ] MyDequeTest.InsertTest1 (6 ms)
 [ RUN      ] MyDequeTest.InsertTest2
 [       OK ] MyDequeTest.InsertTest2 (7 ms)
 [ RUN      ] MyDequeTest.InsertTest3
-[       OK ] MyDequeTest.InsertTest3 (10 ms)
+[       OK ] MyDequeTest.InsertTest3 (9 ms)
 [ RUN      ] MyDequeTest.InsertTest4
 [       OK ] MyDequeTest.InsertTest4 (7 ms)
 [ RUN      ] MyDequeTest.InsertTest5
 [       OK ] MyDequeTest.InsertTest5 (7 ms)
 [ RUN      ] MyDequeTest.InsertTest6
-[       OK ] MyDequeTest.InsertTest6 (6 ms)
+[       OK ] MyDequeTest.InsertTest6 (5 ms)
 [ RUN      ] MyDequeTest.PopBackTest1
 [       OK ] MyDequeTest.PopBackTest1 (6 ms)
 [ RUN      ] MyDequeTest.PopBackTest2
-[       OK ] MyDequeTest.PopBackTest2 (6 ms)
+[       OK ] MyDequeTest.PopBackTest2 (5 ms)
 [ RUN      ] MyDequeTest.PopBackTest3
-[       OK ] MyDequeTest.PopBackTest3 (5 ms)
+[       OK ] MyDequeTest.PopBackTest3 (6 ms)
 [ RUN      ] MyDequeTest.PopFrontTest1
-[       OK ] MyDequeTest.PopFrontTest1 (6 ms)
+[       OK ] MyDequeTest.PopFrontTest1 (5 ms)
 [ RUN      ] MyDequeTest.PopFrontTest2
-[       OK ] MyDequeTest.PopFrontTest2 (6 ms)
+[       OK ] MyDequeTest.PopFrontTest2 (5 ms)
 [ RUN      ] MyDequeTest.PopFrontTest3
 [       OK ] MyDequeTest.PopFrontTest3 (5 ms)
 [ RUN      ] MyDequeTest.PushBackTest1
-[       OK ] MyDequeTest.PushBackTest1 (5 ms)
+[       OK ] MyDequeTest.PushBackTest1 (6 ms)
 [ RUN      ] MyDequeTest.PushBackTest2
-[       OK ] MyDequeTest.PushBackTest2 (6 ms)
+[       OK ] MyDequeTest.PushBackTest2 (7 ms)
 [ RUN      ] MyDequeTest.PushBackTest3
-[       OK ] MyDequeTest.PushBackTest3 (6 ms)
+[       OK ] MyDequeTest.PushBackTest3 (5 ms)
 [ RUN      ] MyDequeTest.PushFrontTest1
 [       OK ] MyDequeTest.PushFrontTest1 (6 ms)
 [ RUN      ] MyDequeTest.PushFrontTest2
-[       OK ] MyDequeTest.PushFrontTest2 (6 ms)
+[       OK ] MyDequeTest.PushFrontTest2 (7 ms)
 [ RUN      ] MyDequeTest.PushFrontTest3
 [       OK ] MyDequeTest.PushFrontTest3 (5 ms)
 [ RUN      ] MyDequeTest.ResizeTest1
 [       OK ] MyDequeTest.ResizeTest1 (4 ms)
 [ RUN      ] MyDequeTest.ResizeTest2
-[       OK ] MyDequeTest.ResizeTest2 (4 ms)
+[       OK ] MyDequeTest.ResizeTest2 (5 ms)
 [ RUN      ] MyDequeTest.ResizeTest3
 [       OK ] MyDequeTest.ResizeTest3 (5 ms)
 [ RUN      ] MyDequeTest.SizeTest1
-[       OK ] MyDequeTest.SizeTest1 (3 ms)
+[       OK ] MyDequeTest.SizeTest1 (4 ms)
 [ RUN      ] MyDequeTest.SizeTest2
 [       OK ] MyDequeTest.SizeTest2 (4 ms)
 [ RUN      ] MyDequeTest.SizeTest3
-[       OK ] MyDequeTest.SizeTest3 (4 ms)
+[       OK ] MyDequeTest.SizeTest3 (3 ms)
 [ RUN      ] MyDequeTest.SwapTest1
-[       OK ] MyDequeTest.SwapTest1 (14 ms)
+[       OK ] MyDequeTest.SwapTest1 (15 ms)
 [ RUN      ] MyDequeTest.SwapTest2
 [       OK ] MyDequeTest.SwapTest2 (5 ms)
 [ RUN      ] MyDequeTest.SwapTest3
-[       OK ] MyDequeTest.SwapTest3 (6 ms)
+[       OK ] MyDequeTest.SwapTest3 (7 ms)
 [----------] 104 tests from MyDequeTest (757 ms total)
 
 [----------] Global test environment tear-down

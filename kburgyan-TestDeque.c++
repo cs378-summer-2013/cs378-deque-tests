@@ -363,41 +363,6 @@ TEST_F(MyDequeTest, CopyConstructorTest3){
 }
 
 //********************************************
- //$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-/*TEST_F(MyDequeTest, DestructorTest1){ 
-	//v8.~MyDeque(); 
-	std::deque<int> v8(v8);
-	ASSERT_EQ(3, v8.size());
-	//################################
-	myV8.~MyDeque();
-	MyDeque<int> myV8(myV9);
-	ASSERT_EQ(3, myV8.size());
-}
-
-TEST_F(MyDequeTest, DestructorTest2){
-	v14.~MyDeque();
-	std::deque<int> v14(v9);
-	ASSERT_EQ(STANDARD_ROW_SIZE * 3 + 1, v14.size());
-	//################################
-	myV14.~MyDeque();
-	MyDeque<int> myV14(myV9);
-	ASSERT_EQ(STANDARD_ROW_SIZE * 3 + 1, myV14.size());
-
-}
-
-TEST_F(MyDequeTest, DestructorTest3){
-	v11.~deque();
-	std::deque<int> v11(v9);
-	ASSERT_EQ(3, v11.size());
-	//################################
-	myV11.~MyDeque();
-	MyDeque<int> myV11(myV9);
-	ASSERT_EQ(3, myV11.size());
-
-}
-//$$$$$$$$$$$$$$$$$$$$$$$$$$
-*/
-//********************************************
 
 TEST_F(MyDequeTest, CopyAssignTest1){
 	ASSERT_EQ(3, myV9.size());
